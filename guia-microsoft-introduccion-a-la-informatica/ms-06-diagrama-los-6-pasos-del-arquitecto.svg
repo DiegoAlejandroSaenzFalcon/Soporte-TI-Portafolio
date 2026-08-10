@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 330" font-family="Segoe UI, Arial, sans-serif">
+  <rect width="920" height="330" fill="#f4f7fb"/>
+  <text x="460" y="38" text-anchor="middle" font-size="21" font-weight="bold" fill="#1e3a8a">LOS 6 PASOS DEL ARQUITECTO — el metodo antes del diseno</text>
+  <g font-size="13">
+    <rect x="40" y="90" width="130" height="64" rx="8" fill="#3b82f6"/>
+    <text x="105" y="116" text-anchor="middle" font-weight="bold" fill="#fff">1. REQUERIM.</text>
+    <text x="105" y="134" text-anchor="middle" fill="#e0edff">que necesita</text>
+    <path d="M 170 122 L 214 122" stroke="#0ea5e9" stroke-width="3" marker-end="url(#a)"/>
+    <rect x="218" y="90" width="130" height="64" rx="8" fill="#2563eb"/>
+    <text x="283" y="116" text-anchor="middle" font-weight="bold" fill="#fff">2. RESTRICC.</text>
+    <text x="283" y="134" text-anchor="middle" fill="#dbeafe">presupuesto, equipo</text>
+    <path d="M 348 122 L 392 122" stroke="#0ea5e9" stroke-width="3" marker-end="url(#a)"/>
+    <rect x="396" y="90" width="130" height="64" rx="8" fill="#f59e0b"/>
+    <text x="461" y="116" text-anchor="middle" font-weight="bold" fill="#fff">3. DISENO</text>
+    <text x="461" y="134" text-anchor="middle" fill="#fff8e1">hardware, cloud, seg.</text>
+    <path d="M 526 122 L 570 122" stroke="#0ea5e9" stroke-width="3" marker-end="url(#a)"/>
+    <rect x="574" y="90" width="130" height="64" rx="8" fill="#8b5cf6"/>
+    <text x="639" y="116" text-anchor="middle" font-weight="bold" fill="#fff">4. JUSTIFICAR</text>
+    <text x="639" y="134" text-anchor="middle" fill="#ede9fe">por que esta opcion</text>
+    <path d="M 704 122 L 748 122" stroke="#0ea5e9" stroke-width="3" marker-end="url(#a)"/>
+    <rect x="752" y="90" width="130" height="64" rx="8" fill="#10b981"/>
+    <text x="817" y="116" text-anchor="middle" font-weight="bold" fill="#fff">5. PLAN</text>
+    <text x="817" y="134" text-anchor="middle" fill="#d1fae5">fases, pruebas, train.</text>
+    <rect x="396" y="200" width="130" height="64" rx="8" fill="#0ea5e9"/>
+    <text x="461" y="226" text-anchor="middle" font-weight="bold" fill="#fff">6. DEFENSA</text>
+    <text x="461" y="244" text-anchor="middle" fill="#e0f2fe">explicar + objeciones</text>
+    <path d="M 817 154 L 817 232 L 530 232" stroke="#f59e0b" stroke-width="3" fill="none" marker-end="url(#b)"/>
+    <text x="640" y="222" font-size="12" fill="#b45309">hacia atras si algo no cuadra</text>
+  </g>
+  <rect x="40" y="286" width="842" height="32" rx="8" fill="#1e3a8a"/>
+  <text x="461" y="307" text-anchor="middle" font-size="13" fill="#fff">Error clasico: saltar a "compro un servidor" sin preguntar cuantos usuarios y para que negocio</text>
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#0ea5e9"/></marker>
+    <marker id="b" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#f59e0b"/></marker>
+  </defs>
+</svg>

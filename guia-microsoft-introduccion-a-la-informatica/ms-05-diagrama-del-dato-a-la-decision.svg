@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 320" font-family="Segoe UI, Arial, sans-serif">
+  <rect width="920" height="320" fill="#f4f7fb"/>
+  <text x="460" y="38" text-anchor="middle" font-size="21" font-weight="bold" fill="#1e3a8a">DEL DATO A LA DECISION — como funciona la inteligencia de negocio</text>
+  <rect x="40" y="90" width="150" height="70" rx="8" fill="#3b82f6"/>
+  <text x="115" y="120" text-anchor="middle" font-size="14" font-weight="bold" fill="#fff">DATOS CRUDOS</text>
+  <text x="115" y="140" text-anchor="middle" font-size="12" fill="#e0edff">ventas, web, stock</text>
+  <path d="M 190 125 L 240 125" stroke="#0ea5e9" stroke-width="3" marker-end="url(#a)"/>
+  <rect x="244" y="90" width="150" height="70" rx="8" fill="#10b981"/>
+  <text x="319" y="120" text-anchor="middle" font-size="14" font-weight="bold" fill="#fff">ALMACEN</text>
+  <text x="319" y="140" text-anchor="middle" font-size="12" fill="#d1fae5">datos limpios y unidos</text>
+  <path d="M 394 125 L 444 125" stroke="#0ea5e9" stroke-width="3" marker-end="url(#a)"/>
+  <rect x="448" y="90" width="150" height="70" rx="8" fill="#f59e0b"/>
+  <text x="523" y="120" text-anchor="middle" font-size="14" font-weight="bold" fill="#fff">BI</text>
+  <text x="523" y="140" text-anchor="middle" font-size="12" fill="#fff8e1">informes y dashboards</text>
+  <path d="M 598 125 L 648 125" stroke="#0ea5e9" stroke-width="3" marker-end="url(#a)"/>
+  <rect x="652" y="90" width="150" height="70" rx="8" fill="#8b5cf6"/>
+  <text x="727" y="120" text-anchor="middle" font-size="14" font-weight="bold" fill="#fff">DASHBOARD</text>
+  <text x="727" y="140" text-anchor="middle" font-size="12" fill="#ede9fe">la foto del negocio</text>
+  <path d="M 802 125 L 852 125" stroke="#0ea5e9" stroke-width="3" marker-end="url(#a)"/>
+  <rect x="40" y="190" width="840" height="50" rx="8" fill="#dbeafe"/>
+  <text x="460" y="212" text-anchor="middle" font-size="14" fill="#0b1f4d">DECISION: donde invertir, que promocionar, cuando contratar, como fijar precios</text>
+  <text x="460" y="230" text-anchor="middle" font-size="12" fill="#0b1f4d">no es tener datos: es VER la foto del negocio a tiempo</text>
+  <rect x="40" y="260" width="840" height="34" rx="8" fill="#f59e0b"/>
+  <text x="460" y="282" text-anchor="middle" font-size="13" fill="#fff">Regla de oro: basura entra, basura sale — la calidad del dato precede a la herramienta</text>
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#0ea5e9"/></marker>
+  </defs>
+</svg>

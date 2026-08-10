@@ -13,6 +13,14 @@
 
 ---
 
+## Diagramas de esta sección
+
+| Diagrama | Qué te enseña |
+|----------|---------------|
+| [On-premises vs Cloud vs Híbrido](./ms-03-diagrama-onprem-cloud-hibrido.svg) | Dónde vive cada sistema, con ventajas, riesgos y cuándo elegir cada uno |
+
+---
+
 ## 1. El servidor: la PC que no se apaga
 
 Un **servidor** es una computadora optimizada para servir otros equipos sin descanso.

@@ -13,6 +13,14 @@
 
 ---
 
+## Diagramas de esta sección
+
+| Diagrama | Qué te enseña |
+|----------|---------------|
+| [El ciclo de gestión de parches](./ms-04-diagrama-ciclo-de-parches.svg) | Los 5 pasos del mantenimiento profesional: inventario → priorizar → probar → aplicar → verificar |
+
+---
+
 ## 1. El panorama de amenazas (de dónde viene el peligro)
 
 | Origen | Ejemplos | Vía de entrada |

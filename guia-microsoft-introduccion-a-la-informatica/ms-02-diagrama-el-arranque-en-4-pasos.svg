@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 300" font-family="Segoe UI, Arial, sans-serif">
+  <rect width="920" height="300" fill="#f4f7fb"/>
+  <text x="460" y="38" text-anchor="middle" font-size="21" font-weight="bold" fill="#1e3a8a">EL ARRANQUE EN 4 PASOS — de encender al escritorio</text>
+  <rect x="40" y="80" width="200" height="52" rx="8" fill="#3b82f6"/>
+  <text x="140" y="103" text-anchor="middle" font-size="14" font-weight="bold" fill="#fff">1. UEFI/BIOS</text>
+  <text x="140" y="120" text-anchor="middle" font-size="12" fill="#e0edff">firmware: revisa el hardware (POST)</text>
+  <path d="M 240 106 L 292 106" stroke="#0ea5e9" stroke-width="3" marker-end="url(#a)"/>
+  <rect x="296" y="80" width="200" height="52" rx="8" fill="#3b82f6"/>
+  <text x="396" y="103" text-anchor="middle" font-size="14" font-weight="bold" fill="#fff">2. Bootloader</text>
+  <text x="396" y="120" text-anchor="middle" font-size="12" fill="#e0edff">encuentra el SO en el disco</text>
+  <path d="M 496 106 L 548 106" stroke="#0ea5e9" stroke-width="3" marker-end="url(#a)"/>
+  <rect x="552" y="80" width="200" height="52" rx="8" fill="#1e3a8a"/>
+  <text x="652" y="103" text-anchor="middle" font-size="14" font-weight="bold" fill="#fff">3. Kernel</text>
+  <text x="652" y="120" text-anchor="middle" font-size="12" fill="#dbeafe">el corazon del SO toma el control</text>
+  <path d="M 752 106 L 800 106" stroke="#0ea5e9" stroke-width="3" marker-end="url(#a)"/>
+  <rect x="804" y="80" width="80" height="52" rx="8" fill="#1e3a8a"/>
+  <text x="844" y="103" text-anchor="middle" font-size="14" font-weight="bold" fill="#fff">4. SO</text>
+  <text x="844" y="120" text-anchor="middle" font-size="12" fill="#dbeafe">servicios + escritorio</text>
+  <rect x="40" y="160" width="844" height="42" rx="8" fill="#dbeafe"/>
+  <text x="460" y="187" text-anchor="middle" font-size="14" fill="#0b1f4d">Los DRIVERS (interpretes) permiten que el SO hable con cada componente: un driver roto = teclado mudo</text>
+  <rect x="40" y="222" width="844" height="42" rx="8" fill="#f59e0b"/>
+  <text x="460" y="249" text-anchor="middle" font-size="14" fill="#fff">Diagnostico con metodo: identifica el driver (administrador de dispositivos) → prueba el anterior → actualiza uno a la vez</text>
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#0ea5e9"/></marker>
+  </defs>
+</svg>

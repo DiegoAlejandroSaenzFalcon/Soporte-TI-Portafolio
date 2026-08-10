@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 340" font-family="Segoe UI, Arial, sans-serif">
+  <rect width="920" height="340" fill="#f4f7fb"/>
+  <text x="460" y="38" text-anchor="middle" font-size="21" font-weight="bold" fill="#1e3a8a">DONDE VIVE TU SISTEMA — On-Premises vs Cloud vs Hibrido</text>
+  <g font-size="13">
+    <rect x="40" y="70" width="270" height="200" rx="8" fill="#dbeafe"/>
+    <rect x="60" y="90" width="230" height="34" rx="6" fill="#3b82f6"/>
+    <text x="175" y="112" text-anchor="middle" font-weight="bold" fill="#fff">ON-PREMISES</text>
+    <text x="175" y="140" text-anchor="middle" fill="#0b1f4d">En TU edificio</text>
+    <text x="175" y="162" text-anchor="middle" fill="#0b1f4d">Inversion alta inicial</text>
+    <text x="175" y="184" text-anchor="middle" fill="#0b1f4d">Control total</text>
+    <text x="175" y="206" text-anchor="middle" fill="#0b1f4d">Escalar = semanas</text>
+    <text x="175" y="228" text-anchor="middle" fill="#0b1f4d">Riesgo: capacidad ociosa</text>
+    <text x="175" y="254" text-anchor="middle" fill="#b45309" font-weight="bold">Para: critico y predecible</text>
+    <rect x="335" y="70" width="270" height="200" rx="8" fill="#d1fae5"/>
+    <rect x="355" y="90" width="230" height="34" rx="6" fill="#10b981"/>
+    <text x="470" y="112" text-anchor="middle" font-weight="bold" fill="#fff">CLOUD</text>
+    <text x="470" y="140" text-anchor="middle" fill="#065f46">Centro de datos del proveedor</text>
+    <text x="470" y="162" text-anchor="middle" fill="#065f46">Pago por uso</text>
+    <text x="470" y="184" text-anchor="middle" fill="#065f46">Escala instantanea</text>
+    <text x="470" y="206" text-anchor="middle" fill="#065f46">Less mantenimiento</text>
+    <text x="470" y="228" text-anchor="middle" fill="#065f46">Riesgo: dependencia + costo</text>
+    <text x="470" y="254" text-anchor="middle" fill="#047857" font-weight="bold">Para: picos y proyectos nuevos</text>
+    <rect x="630" y="70" width="250" height="200" rx="8" fill="#fef3c7"/>
+    <rect x="648" y="90" width="214" height="34" rx="6" fill="#f59e0b"/>
+    <text x="755" y="112" text-anchor="middle" font-weight="bold" fill="#fff">HIBRIDO</text>
+    <text x="755" y="140" text-anchor="middle" fill="#78350f">Lo critico: on-prem (estable)</text>
+    <text x="755" y="162" text-anchor="middle" fill="#78350f">Lo elastico: nube (picos)</text>
+    <text x="755" y="184" text-anchor="middle" fill="#78350f">La arquitectura dominante</text>
+    <text x="755" y="206" text-anchor="middle" fill="#78350f">de las empresas modernas</text>
+    <text x="755" y="228" text-anchor="middle" fill="#78350f">Riesgo: integracion compleja</text>
+    <text x="755" y="254" text-anchor="middle" fill="#92400e" font-weight="bold">Para: casi todos hoy</text>
+  </g>
+  <rect x="40" y="292" width="840" height="32" rx="8" fill="#1e3a8a"/>
+  <text x="460" y="313" text-anchor="middle" font-size="13" fill="#fff">Pregunta de entrevista favorita: ¿que pones en la nube y que no? Respuesta: la que depende de la criticidad y el costo</text>
+</svg>

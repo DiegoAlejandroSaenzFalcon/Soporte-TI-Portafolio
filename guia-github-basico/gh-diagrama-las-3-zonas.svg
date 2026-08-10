@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 320" font-family="Segoe UI, Arial, sans-serif">
+  <rect width="920" height="320" fill="#f4f7fb"/>
+  <text x="460" y="36" text-anchor="middle" font-size="21" font-weight="bold" fill="#1e3a8a">LAS 3 ZONAS DEL REPOSITORIO — usa siempre la zona verde</text>
+  <g font-size="13">
+    <rect x="40" y="80" width="270" height="190" rx="8" fill="#dcfce7"/>
+    <rect x="58" y="98" width="234" height="34" rx="6" fill="#10b981"/>
+    <text x="175" y="120" text-anchor="middle" font-weight="bold" fill="#fff">CODE (pestaña Code)</text>
+    <text x="175" y="152" text-anchor="middle" fill="#065f46" font-weight="bold">La zona de estudio</text>
+    <text x="175" y="174" text-anchor="middle" fill="#065f46">Carpetas y archivos en</text>
+    <text x="175" y="192" text-anchor="middle" fill="#065f46">estado actual (final)</text>
+    <text x="175" y="214" text-anchor="middle" fill="#065f46">Ves el contenido REAL</text>
+    <text x="175" y="240" text-anchor="middle" fill="#065f46" font-weight="bold">Aqui vives tu</text>
+    <rect x="335" y="80" width="270" height="190" rx="8" fill="#fee2e2"/>
+    <rect x="353" y="98" width="234" height="34" rx="6" fill="#ef4444"/>
+    <text x="470" y="120" text-anchor="middle" font-weight="bold" fill="#fff">COMMITS (historial)</text>
+    <text x="470" y="152" text-anchor="middle" fill="#7f1d1d" font-weight="bold">La linea del tiempo</text>
+    <text x="470" y="174" text-anchor="middle" fill="#7f1d1d">Lista de "guardados" con</text>
+    <text x="470" y="192" text-anchor="middle" fill="#7f1d1d">fecha y mensaje</text>
+    <text x="470" y="214" text-anchor="middle" fill="#7f1d1d">Interesante para ver</text>
+    <text x="470" y="240" text-anchor="middle" fill="#7f1d1d" font-weight="bold">que cambio y cuando</text>
+    <rect x="630" y="80" width="250" height="190" rx="8" fill="#fef3c7"/>
+    <rect x="648" y="98" width="214" height="34" rx="6" fill="#f59e0b"/>
+    <text x="755" y="120" text-anchor="middle" font-weight="bold" fill="#fff">VISTA DE COMMIT</text>
+    <text x="755" y="152" text-anchor="middle" fill="#78350f" font-weight="bold">La comparacion</text>
+    <text x="755" y="174" text-anchor="middle" fill="#78350f">Rojo tachado = lineas</text>
+    <text x="755" y="192" text-anchor="middle" fill="#78350f">ELIMINADAS en esa version</text>
+    <text x="755" y="214" text-anchor="middle" fill="#78350f">Verde = lineas nuevas</text>
+    <text x="755" y="240" text-anchor="middle" fill="#b45309" font-weight="bold">NO es tu contenido</text>
+  </g>
+  <rect x="40" y="286" width="840" height="30" rx="8" fill="#1e3a8a"/>
+  <text x="460" y="306" text-anchor="middle" font-size="13" fill="#fff">Regla de oro: para estudiar, siempre pestaña CODE · el tachado de los commits no es contenido final</text>
+</svg>

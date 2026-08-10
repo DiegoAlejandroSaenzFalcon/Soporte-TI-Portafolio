@@ -13,6 +13,14 @@
 
 ---
 
+## Diagramas de esta sección
+
+| Diagrama | Qué te enseña |
+|----------|---------------|
+| [Del dato a la decisión (BI)](./ms-05-diagrama-del-dato-a-la-decision.svg) | El flujo completo: datos crudos → almacén → BI → dashboard → decisión |
+
+---
+
 ## 1. ERP: el sistema nervioso de la empresa
 
 **ERP** (Enterprise Resource Planning) = un único sistema que integra todas las áreas: ventas, compras, inventario, finanzas, RH, producción.

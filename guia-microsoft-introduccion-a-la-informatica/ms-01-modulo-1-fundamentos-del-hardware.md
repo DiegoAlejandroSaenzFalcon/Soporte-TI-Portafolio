@@ -13,6 +13,14 @@
 
 ---
 
+## Diagramas de esta sección
+
+| Diagrama | Qué te enseña |
+|----------|---------------|
+| [La computadora es una cocina](./ms-01-diagrama-la-computadora-es-una-cocina.svg) | El rol de cada componente y el flujo completo de un clic |
+
+---
+
 ## 1. La computadora como una cocina (analogía maestra)
 
 | Componente | En la cocina | En la PC |

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 330" font-family="Segoe UI, Arial, sans-serif">
+  <rect width="920" height="330" fill="#f4f7fb"/>
+  <text x="460" y="36" text-anchor="middle" font-size="21" font-weight="bold" fill="#1e3a8a">LA COMPUTADORA ES UNA COCINA — cada componente tiene su rol</text>
+  <g font-size="13">
+    <rect x="40" y="70" width="260" height="52" rx="8" fill="#3b82f6"/>
+    <text x="170" y="93" text-anchor="middle" font-weight="bold" fill="#fff">CPU = EL CHEF</text>
+    <text x="170" y="110" text-anchor="middle" fill="#e0edff">decide y ejecuta cada movimiento</text>
+    <rect x="40" y="134" width="260" height="52" rx="8" fill="#60a5fa"/>
+    <text x="170" y="157" text-anchor="middle" font-weight="bold" fill="#0b1f4d">RAM = LA MESA DE TRABAJO</text>
+    <text x="170" y="174" text-anchor="middle" fill="#0b1f4d">ingredientes a mano (temporal)</text>
+    <rect x="40" y="198" width="260" height="52" rx="8" fill="#93c5fd"/>
+    <text x="170" y="221" text-anchor="middle" font-weight="bold" fill="#0b1f4d">DISCO = LA DESPENSA</text>
+    <text x="170" y="238" text-anchor="middle" fill="#0b1f4d">todo guardado (permanente)</text>
+    <rect x="330" y="70" width="260" height="52" rx="8" fill="#f59e0b"/>
+    <text x="460" y="93" text-anchor="middle" font-weight="bold" fill="#fff">GPU = EL FREIDOR MASIVO</text>
+    <text x="460" y="110" text-anchor="middle" fill="#fff8e1">100 papas a la vez (paralelo)</text>
+    <rect x="330" y="134" width="260" height="52" rx="8" fill="#fbbf24"/>
+    <text x="460" y="157" text-anchor="middle" font-weight="bold" fill="#1e3a8a">PLACA BASE = LA COCINA</text>
+    <text x="460" y="174" text-anchor="middle" fill="#1e3a8a">conecta todos los componentes</text>
+    <rect x="330" y="198" width="260" height="52" rx="8" fill="#fcd34d"/>
+    <text x="460" y="221" text-anchor="middle" font-weight="bold" fill="#1e3a8a">PERIFERICOS = UTENSILIOS</text>
+    <text x="460" y="238" text-anchor="middle" fill="#1e3a8a">entrada (teclado) y salida (pantalla)</text>
+  </g>
+  <rect x="620" y="70" width="260" height="180" rx="8" fill="#1e3a8a"/>
+  <text x="750" y="98" text-anchor="middle" font-size="15" font-weight="bold" fill="#fff">EL FLUJO DE UN CLIC</text>
+  <text x="750" y="128" text-anchor="middle" font-size="13" fill="#e0edff">1. Teclado avisa a la CPU</text>
+  <text x="750" y="150" text-anchor="middle" font-size="13" fill="#e0edff">2. CPU busca el programa</text>
+  <text x="750" y="168" text-anchor="middle" font-size="13" fill="#e0edff">en la despensa (disco)</text>
+  <text x="750" y="190" text-anchor="middle" font-size="13" fill="#e0edff">3. Lo lleva a la mesa (RAM)</text>
+  <text x="750" y="212" text-anchor="middle" font-size="13" fill="#e0edff">4. Ejecuta; GPU si hay graficos</text>
+  <text x="750" y="234" text-anchor="middle" font-size="13" fill="#e0edff">5. Resultado sale por pantalla</text>
+  <rect x="40" y="272" width="840" height="36" rx="8" fill="#10b981"/>
+  <text x="460" y="296" text-anchor="middle" font-size="14" fill="#fff">Regla: PC lenta con muchos programas = falta RAM · PC lenta al arrancar = disco casi lleno o lento</text>
+</svg>

@@ -13,6 +13,14 @@
 
 ---
 
+## Diagramas de esta sección
+
+| Diagrama | Qué te enseña |
+|----------|---------------|
+| [Los 6 pasos del arquitecto](./ms-06-diagrama-los-6-pasos-del-arquitecto.svg) | El método completo del diseño de soluciones, con su bucle de retroalimentación |
+
+---
+
 ## 1. El rol: arquitecto de soluciones
 
 El arquitecto diseña **la casa entera** antes de contratar al constructor. Su método profesional (seis pasos, método científico puro):

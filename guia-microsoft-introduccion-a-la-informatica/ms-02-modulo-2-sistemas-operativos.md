@@ -13,6 +13,14 @@
 
 ---
 
+## Diagramas de esta sección
+
+| Diagrama | Qué te enseña |
+|----------|---------------|
+| [El arranque en 4 pasos](./ms-02-diagrama-el-arranque-en-4-pasos.svg) | UEFI → bootloader → kernel → escritorio, y el rol de los drivers |
+
+---
+
 ## 1. El SO como director de orquesta
 
 El sistema operativo es el **programa maestro**: gestiona el hardware, organiza los programas, reparte memoria y protege los datos de cada usuario.
