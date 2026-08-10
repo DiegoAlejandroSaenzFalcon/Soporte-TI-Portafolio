@@ -41,7 +41,7 @@ flowchart LR
 | **5** | 3 | Paridad distribuida | 1 disco falla y sigues; buen equilibrio |
 | **10** | 4 | Espejo + stripe | RÃ¡pido + tolerante (bases de datos) |
 
-![Niveles de RAID](./diagramas/raid-niveles.svg)
+![Niveles de RAID](./0405-diagrama-raid.svg)
 
 > **RAID â‰  backup**: RAID protege contra **fallo de disco fÃ­sico**, no contra errores humanos, ransomware, incendio o borrado accidental. El ransomware cifra los discos RAID por igual.
 
@@ -63,7 +63,7 @@ flowchart LR
 
 ## 4. La estrategia 3-2-1 (el estÃ¡ndar de oro)
 
-![Regla 3-2-1](./diagramas/backup-3-2-1.svg)
+![Regla 3-2-1](./0405-diagrama-backup-3-2-1.svg)
 
 **3 copias** de los datos Â· **2 medios/formatos** distintos Â· **1 copia fuera del sitio**
 
@@ -138,3 +138,4 @@ flowchart TD
 - [ ] DiseÃ±o 3-2-1 (y 1-1 inmutable) para un cliente real
 - [ ] Configuro un backup automÃ¡tico real y **lo restauro con Ã©xito**
 - [ ] Redacto un runbook DR con RPO/RTO y pasos de restauraciÃ³n
+

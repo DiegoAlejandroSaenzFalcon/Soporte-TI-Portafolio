@@ -109,3 +109,4 @@ El **80% de los incidentes** empiezan con un humano engaÃ±ado, no con tecnolog
 - [ ] Detecto phishing sin abrir nada
 - [ ] Aplico la regla de "verificar por segundo canal"
 - [ ] Sigo el flujo de respuesta ante un correo sospechoso (reportar)
+

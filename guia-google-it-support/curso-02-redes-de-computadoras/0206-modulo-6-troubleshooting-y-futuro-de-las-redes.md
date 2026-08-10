@@ -108,3 +108,4 @@ Toma capturas del laboratorio â†’ son material de portafolio profesional (c
 
 ## Fin del Curso 02 â€” Siguiente paso
 Completa el examen del curso (opcional) y continÃºa con **Curso 03 Â· Sistemas Operativos** â†’
+

@@ -138,3 +138,4 @@ nslookup google.com
 - [ ] Diagnostico conectividad con ipconfig/ping/nslookup
 - [ ] Identifico una IP APIPA y quÃ© significa
 - [ ] He usado Packet Tracer o Wireshark al menos una vez
+

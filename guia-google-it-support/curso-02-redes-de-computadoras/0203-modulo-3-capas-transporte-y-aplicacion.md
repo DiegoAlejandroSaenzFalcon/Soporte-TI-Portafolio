@@ -120,3 +120,4 @@ sequenceDiagram
 - [ ] Explico quÃ© es un socket (IP + puerto)
 - [ ] Configuro una regla mental de firewall "denegar por defecto"
 - [ ] Verifico un puerto abierto/cerrado con comandos
+

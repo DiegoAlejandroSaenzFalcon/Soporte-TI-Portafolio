@@ -115,3 +115,4 @@ flowchart LR
 - [ ] Identifico direcciÃ³n de red y broadcast de cualquier rango
 - [ ] PillÃ© la idea de ruta/tabla/gateway y siguiente salto
 - [ ] Reconozco una direcciÃ³n IPv6 y su loopback ::1
+
