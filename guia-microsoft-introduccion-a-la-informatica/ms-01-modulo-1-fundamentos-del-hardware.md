@@ -17,7 +17,7 @@
 
 | Diagrama | Qué te enseña |
 |----------|---------------|
-| [La computadora es una cocina](./ms-01-diagrama-la-computadora-es-una-cocina.svg) | El rol de cada componente y el flujo completo de un clic |
+| [La computadora es una cocina](./ms-01-modulo-1-fundamentos-del-hardware-diagrama-cocina.svg) | El rol de cada componente y el flujo completo de un clic |
 
 ---
 

@@ -17,7 +17,7 @@
 
 | Diagrama | Qué te enseña |
 |----------|---------------|
-| [Los 6 pasos del arquitecto](./ms-06-diagrama-los-6-pasos-del-arquitecto.svg) | El método completo del diseño de soluciones, con su bucle de retroalimentación |
+| [Los 6 pasos del arquitecto](./ms-06-modulo-6-proyecto-final-diagrama-6-pasos-arquitecto.svg) | El método completo del diseño de soluciones, con su bucle de retroalimentación |
 
 ---
 

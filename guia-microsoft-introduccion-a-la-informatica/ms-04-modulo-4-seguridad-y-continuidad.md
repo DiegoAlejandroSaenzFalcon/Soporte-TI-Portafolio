@@ -17,7 +17,7 @@
 
 | Diagrama | Qué te enseña |
 |----------|---------------|
-| [El ciclo de gestión de parches](./ms-04-diagrama-ciclo-de-parches.svg) | Los 5 pasos del mantenimiento profesional: inventario → priorizar → probar → aplicar → verificar |
+| [El ciclo de gestión de parches](./ms-04-modulo-4-seguridad-y-continuidad-diagrama-ciclo-parches.svg) | Los 5 pasos del mantenimiento profesional: inventario → priorizar → probar → aplicar → verificar |
 
 ---
 

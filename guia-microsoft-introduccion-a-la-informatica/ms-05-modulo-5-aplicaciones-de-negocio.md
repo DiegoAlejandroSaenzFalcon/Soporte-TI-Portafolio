@@ -17,7 +17,7 @@
 
 | Diagrama | Qué te enseña |
 |----------|---------------|
-| [Del dato a la decisión (BI)](./ms-05-diagrama-del-dato-a-la-decision.svg) | El flujo completo: datos crudos → almacén → BI → dashboard → decisión |
+| [Del dato a la decisión (BI)](./ms-05-modulo-5-aplicaciones-de-negocio-diagrama-dato-decision.svg) | El flujo completo: datos crudos → almacén → BI → dashboard → decisión |
 
 ---
 

@@ -17,7 +17,7 @@
 
 | Diagrama | Qué te enseña |
 |----------|---------------|
-| [On-premises vs Cloud vs Híbrido](./ms-03-diagrama-onprem-cloud-hibrido.svg) | Dónde vive cada sistema, con ventajas, riesgos y cuándo elegir cada uno |
+| [On-premises vs Cloud vs Híbrido](./ms-03-modulo-3-sistemas-empresariales-diagrama-onprem-cloud-hibrido.svg) | Dónde vive cada sistema, con ventajas, riesgos y cuándo elegir cada uno |
 
 ---
 
