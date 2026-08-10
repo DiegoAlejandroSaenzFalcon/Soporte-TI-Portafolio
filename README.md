@@ -27,6 +27,16 @@
 | **03 · Sistemas Operativos: Usuario Experto** | 6 | [Ver guía](./guia-google-it-support/curso-03-sistemas-operativos/README.md) |
 | **04 · Administración de Sistemas e Infraestructura** | 6 | [Ver guía](./guia-google-it-support/curso-04-administracion-de-sistemas/README.md) |
 | **05 · Seguridad Informática** | 6 | [Ver guía](./guia-google-it-support/curso-05-seguridad-informatica/README.md) |
+| **06 · Acelera tu Búsqueda de Empleo con IA** | 6 | [Ver guía](./guia-google-it-support/curso-06-acelera-tu-busqueda-de-empleo-con-ia/README.md) |
+
+**Estado: los 6 cursos están completos**, cada uno con sus 6 módulos (36 módulos en total), checklists de dominio, ejercicios y diagramas.
+
+### Guías complementarias
+
+| Guía | Contenido | Enlace |
+|------|-----------|--------|
+| **Introducción a la Informática (Microsoft)** | Hardware, SO, sistemas empresariales, seguridad, negocio y proyecto final — 6 módulos | [Ver guía](./guia-microsoft-introduccion-a-la-informatica/README.md) |
+| **GitHub para principiantes** | Cómo navegar este repositorio sin saber git | [Ver guía](./guia-github-basico/README.md) |
 
 ### Qué aprenderás en cada curso
 
@@ -81,7 +91,7 @@
 | Proyecto | Descripción | Visibilidad |
 |----------|-------------|-------------|
 | **Soluciona** | Motor personal de soporte TI automatizado: tickets, agentes de IA y base de conocimiento | Privado |
-| **Soporte-TI-Portafolio** | Esta guía profesional de aprendizaje | Público |
+| **Soporte-TI-Portafolio** | Portafolio de guías: ruta completa de soporte TI (6 cursos, 36 módulos), introducción a la informática y guía de GitHub | Público |
 
 ---
 
