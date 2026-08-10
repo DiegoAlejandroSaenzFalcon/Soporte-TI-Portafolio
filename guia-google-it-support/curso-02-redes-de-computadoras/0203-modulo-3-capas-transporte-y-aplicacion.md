@@ -1,57 +1,57 @@
-# 0203 · Módulo 3: Capas de Transporte y Aplicación
+﻿# 0203 Â· MÃ³dulo 3: Capas de Transporte y AplicaciÃ³n
 
-> Curso 02 · Módulo 3 de 6 · Temas: TCP, UDP, puertos, sockets, firewalls y protocolos de aplicación
+> Curso 02 Â· MÃ³dulo 3 de 6 Â· Temas: TCP, UDP, puertos, sockets, firewalls y protocolos de aplicaciÃ³n
 
 ---
 
-## Objetivos de este módulo
+## Objetivos de este mÃ³dulo
 
 - [ ] Explicar TCP vs UDP con ejemplos del mundo real
 - [ ] Comprender el Three-Way Handshake
-- [ ] Conocer los puertos más importantes de memoria
-- [ ] Entender qué es un socket y cómo funciona un firewall
+- [ ] Conocer los puertos mÃ¡s importantes de memoria
+- [ ] Entender quÃ© es un socket y cÃ³mo funciona un firewall
 
 ---
 
-## 1. TCP — Transmisión confiable
+## 1. TCP â€” TransmisiÃ³n confiable
 
 **TCP (Transmission Control Protocol)** garantiza que los datos lleguen completos, en orden y sin duplicados.
 
-| Mecanismo | Función |
+| Mecanismo | FunciÃ³n |
 |-----------|---------|
-| **Números de secuencia** | Ordena los datos al llegar |
+| **NÃºmeros de secuencia** | Ordena los datos al llegar |
 | **Acuses (ACK)** | El receptor confirma cada segmento |
-| **Reenvío** | Si no llega el ACK a tiempo, se reenvía |
-| **Control de flujo** | El receptor indica cuántos datos aceptar |
+| **ReenvÃ­o** | Si no llega el ACK a tiempo, se reenvÃ­a |
+| **Control de flujo** | El receptor indica cuÃ¡ntos datos aceptar |
 
 ### Three-Way Handshake (la llamada de la red)
 ```mermaid
 sequenceDiagram
-    Cliente->>Servidor: SYN (¿puedo hablar?)
-    Servidor->>Cliente: SYN-ACK (sí, y yo también)
+    Cliente->>Servidor: SYN (Â¿puedo hablar?)
+    Servidor->>Cliente: SYN-ACK (sÃ­, y yo tambiÃ©n)
     Cliente->>Servidor: ACK (listo, comenzamos)
-    Note over Cliente,Servidor: Datos en ambos sentidos…
+    Note over Cliente,Servidor: Datos en ambos sentidosâ€¦
 ```
-![Handshake TCP](../../../assets/diagramas/handshake-tcp.svg)
+![Handshake TCP](./diagramas/handshake-tcp.svg)
 
 **Puerto de origen**: aleatorio (ej. 52413). **Puerto de destino**: el servicio (ej. 443 para HTTPS).
 
 ---
 
-## 2. UDP — Rápido y sin garantías
+## 2. UDP â€” RÃ¡pido y sin garantÃ­as
 
-**UDP (User Datagram Protocol)** no establece conexión ni confirma nada: mándalo y ya.
+**UDP (User Datagram Protocol)** no establece conexiÃ³n ni confirma nada: mÃ¡ndalo y ya.
 
-| Aplicación | Protocolo | ¿Por qué? |
+| AplicaciÃ³n | Protocolo | Â¿Por quÃ©? |
 |------------|-----------|-----------|
-| Video en vivo / llamadas | UDP | Un paquete perdido no justifica esperar; fluidez > perfección |
-| Juegos en línea | UDP | Baja latencia crítica |
-| DNS | UDP (puerto 53) | Consulta simple, rápida |
-| DHCP | UDP | Descubrimiento sin conexión previa |
+| Video en vivo / llamadas | UDP | Un paquete perdido no justifica esperar; fluidez > perfecciÃ³n |
+| Juegos en lÃ­nea | UDP | Baja latencia crÃ­tica |
+| DNS | UDP (puerto 53) | Consulta simple, rÃ¡pida |
+| DHCP | UDP | Descubrimiento sin conexiÃ³n previa |
 | Transferencia de archivos | TCP | Cero errores permitidos |
 | Web / correo / bases de datos | TCP | Confiabilidad obligatoria |
 
-**Comparación final**: TCP = carta certificada; UDP = mensaje de voz gritado.
+**ComparaciÃ³n final**: TCP = carta certificada; UDP = mensaje de voz gritado.
 
 ---
 
@@ -62,7 +62,7 @@ sequenceDiagram
 | 20/21 | FTP |
 | 22 | SSH (acceso remoto seguro) |
 | 23 | Telnet (antiguo, inseguro) |
-| 25 | SMTP (envío de correo) |
+| 25 | SMTP (envÃ­o de correo) |
 | 53 | DNS |
 | 80 | HTTP |
 | 110/143 | POP3 / IMAP (entrega de correo) |
@@ -75,48 +75,48 @@ sequenceDiagram
 
 ## 4. Sockets y Firewalls
 
-**Socket** = IP + puerto → identifica una conversación concreta (`192.168.1.50:52413 → 142.250.190.46:443`).
+**Socket** = IP + puerto â†’ identifica una conversaciÃ³n concreta (`192.168.1.50:52413 â†’ 142.250.190.46:443`).
 
-**Firewall**: filtra tráfico con reglas de los dos sentidos.
-- **Denegar por defecto** (whitelist): solo lo permitido pasa — el estándar seguro.
-- Reglas por IP, puerto, dirección y estado (conexiones establecidas→devolver respuestas).
+**Firewall**: filtra trÃ¡fico con reglas de los dos sentidos.
+- **Denegar por defecto** (whitelist): solo lo permitido pasa â€” el estÃ¡ndar seguro.
+- Reglas por IP, puerto, direcciÃ³n y estado (conexiones establecidasâ†’devolver respuestas).
 
 ---
 
-## 5. Capa de aplicación: los protocolos que usamos
+## 5. Capa de aplicaciÃ³n: los protocolos que usamos
 
-| Protocolo | Función | Puerto |
+| Protocolo | FunciÃ³n | Puerto |
 |-----------|---------|--------|
-| **HTTP/HTTPS** | Navegación web (HTTPS = cifrado TLS) | 80/443 |
+| **HTTP/HTTPS** | NavegaciÃ³n web (HTTPS = cifrado TLS) | 80/443 |
 | **FTP/SFTP** | Transferencia de archivos (SFTP = seguro) | 21/22 |
-| **SMTP** | Envío de correo | 25 |
+| **SMTP** | EnvÃ­o de correo | 25 |
 | **POP3 / IMAP** | Recibir correo (IMAP sincroniza en servidor) | 110/143 |
-| **DNS** | Traducción nombre → IP | 53 |
+| **DNS** | TraducciÃ³n nombre â†’ IP | 53 |
 
-**Verificación manual** (sin navegador): `curl https://web.capture` o `Test-NetConnection sitio -Port 443`.
+**VerificaciÃ³n manual** (sin navegador): `curl https://web.capture` o `Test-NetConnection sitio -Port 443`.
 
 ---
 
-## Práctica del módulo
+## PrÃ¡ctica del mÃ³dulo
 
 1. `netstat -ano | findstr :443` (Windows) / `ss -tn` (Linux): observa conexiones TCP activas.
-2. `Test-NetConnection google.com -Port 443` (PowerShell): prueba puertos específicos.
+2. `Test-NetConnection google.com -Port 443` (PowerShell): prueba puertos especÃ­ficos.
 3. Wireshark: filtro `tcp.port == 443` y observa el handshake SYN/SYN-ACK/ACK en una visita web.
-4. Inicia un juego o llamada de video y compara qué puertos UDP usa (`netstat -an | findstr /i udp`).
+4. Inicia un juego o llamada de video y compara quÃ© puertos UDP usa (`netstat -an | findstr /i udp`).
 
 ## Plataformas gratuitas para practicar
 
-- **Wireshark** (https://www.wireshark.org) — capturar handshakes "de verdad"
-- **TryHackMe — Intro to LAN / Port Scanning rooms** (https://tryhackme.com)
-- NetAcad *Networking Basics*: módulos de capa de transporte
+- **Wireshark** (https://www.wireshark.org) â€” capturar handshakes "de verdad"
+- **TryHackMe â€” Intro to LAN / Port Scanning rooms** (https://tryhackme.com)
+- NetAcad *Networking Basics*: mÃ³dulos de capa de transporte
 
 ---
 
-## Checklist de dominio — Módulo 3
+## Checklist de dominio â€” MÃ³dulo 3
 
 - [ ] Explico TCP y UDP con ejemplos de servicios reales
 - [ ] Narro el three-way handshake paso a paso
 - [ ] Conozco los puertos 22, 25, 53, 80, 443, 3389 sin mirar apuntes
-- [ ] Explico qué es un socket (IP + puerto)
+- [ ] Explico quÃ© es un socket (IP + puerto)
 - [ ] Configuro una regla mental de firewall "denegar por defecto"
 - [ ] Verifico un puerto abierto/cerrado con comandos

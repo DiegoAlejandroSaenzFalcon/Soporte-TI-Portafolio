@@ -1,25 +1,25 @@
-# 0405 · Módulo 5: Backups y Recuperación de Datos
+﻿# 0405 Â· MÃ³dulo 5: Backups y RecuperaciÃ³n de Datos
 
-> Curso 04 · Módulo 5 de 6 · Temas: tipos de backup, RAID, replicación, estrategias y disaster recovery
+> Curso 04 Â· MÃ³dulo 5 de 6 Â· Temas: tipos de backup, RAID, replicaciÃ³n, estrategias y disaster recovery
 
 ---
 
-## Objetivos de este módulo
+## Objetivos de este mÃ³dulo
 
 - [ ] Elegir el tipo de backup adecuado (full/incremental/diferencial)
 - [ ] Explicar RAID y elegir el nivel correcto
-- [ ] Entender replicación vs backup
-- [ ] Diseñar una estrategia 3-2-1 completa con RPO/RTO
+- [ ] Entender replicaciÃ³n vs backup
+- [ ] DiseÃ±ar una estrategia 3-2-1 completa con RPO/RTO
 
 ---
 
-## 1. Tipos de backup y su combinación
+## 1. Tipos de backup y su combinaciÃ³n
 
-| Tipo | Respaldas | Recuperación | Ejemplo semanal |
+| Tipo | Respaldas | RecuperaciÃ³n | Ejemplo semanal |
 |------|-----------|--------------|-----------------|
-| **Completo (Full)** | Todo | La más rápida | Domingo |
-| **Incremental** | Solo lo nuevo **desde el último backup** (cualquiera) | Necesitas full + todos los incrementales en orden | Lunes-Viernes |
-| **Diferencial** | Solo lo nuevo **desde el último full** | Solo full + último diferencial | Sábado |
+| **Completo (Full)** | Todo | La mÃ¡s rÃ¡pida | Domingo |
+| **Incremental** | Solo lo nuevo **desde el Ãºltimo backup** (cualquiera) | Necesitas full + todos los incrementales en orden | Lunes-Viernes |
+| **Diferencial** | Solo lo nuevo **desde el Ãºltimo full** | Solo full + Ãºltimo diferencial | SÃ¡bado |
 
 ```mermaid
 flowchart LR
@@ -28,52 +28,52 @@ flowchart LR
     I2 --> I3[Incremental miercoles\n5 archivos]
 ```
 
-**Cálculo de RPO**: con backup diario, pierdes como máximo 24 h de datos (RPO = 24 h). Para RPO menor → backups más frecuentes (cada hora) o replicación continua.
+**CÃ¡lculo de RPO**: con backup diario, pierdes como mÃ¡ximo 24 h de datos (RPO = 24 h). Para RPO menor â†’ backups mÃ¡s frecuentes (cada hora) o replicaciÃ³n continua.
 
 ---
 
-## 2. RAID — redundancia a nivel de disco
+## 2. RAID â€” redundancia a nivel de disco
 
-| Nivel | Mín. discos | Cómo funciona | Resultado |
+| Nivel | MÃ­n. discos | CÃ³mo funciona | Resultado |
 |-------|-------------|---------------|-----------|
 | **0** | 2 | Fragmenta (stripe) | + velocidad, **sin** redundancia |
-| **1** | 2 | Espejo | 1 disco falla y sigues (50% pérdida de capacidad) |
+| **1** | 2 | Espejo | 1 disco falla y sigues (50% pÃ©rdida de capacidad) |
 | **5** | 3 | Paridad distribuida | 1 disco falla y sigues; buen equilibrio |
-| **10** | 4 | Espejo + stripe | Rápido + tolerante (bases de datos) |
+| **10** | 4 | Espejo + stripe | RÃ¡pido + tolerante (bases de datos) |
 
-![Niveles de RAID](../../../assets/diagramas/raid-niveles.svg)
+![Niveles de RAID](./diagramas/raid-niveles.svg)
 
-> **RAID ≠ backup**: RAID protege contra **fallo de disco físico**, no contra errores humanos, ransomware, incendio o borrado accidental. El ransomware cifra los discos RAID por igual.
+> **RAID â‰  backup**: RAID protege contra **fallo de disco fÃ­sico**, no contra errores humanos, ransomware, incendio o borrado accidental. El ransomware cifra los discos RAID por igual.
 
 ---
 
-## 3. Replicación vs Backup
+## 3. ReplicaciÃ³n vs Backup
 
-| Estrategia | Qué hace | RPO/RTO |
+| Estrategia | QuÃ© hace | RPO/RTO |
 |------------|----------|---------|
-| **Backup** | Copias en el tiempo (versiones) | Horas/días |
-| **Replicación síncrona** | Espejo en vivo entre 2 sistemas | Casi cero |
-| **Replicación asíncrona** | Espejo con ligero retraso (multi-sitio) | Minutos |
+| **Backup** | Copias en el tiempo (versiones) | Horas/dÃ­as |
+| **ReplicaciÃ³n sÃ­ncrona** | Espejo en vivo entre 2 sistemas | Casi cero |
+| **ReplicaciÃ³n asÃ­ncrona** | Espejo con ligero retraso (multi-sitio) | Minutos |
 
-**Snapshots (VM)**: instantáneas de estado de una VM — increíbles para rollback rápido, pero **no son backup**: viven en el mismo disco/almacén que la VM.
+**Snapshots (VM)**: instantÃ¡neas de estado de una VM â€” increÃ­bles para rollback rÃ¡pido, pero **no son backup**: viven en el mismo disco/almacÃ©n que la VM.
 
-> **Diseño ganador**: backups (versiones) + replicación off-site (continuidad) + snapshots (rollback rápido) — cada capa cubre una amenaza distinta.
+> **DiseÃ±o ganador**: backups (versiones) + replicaciÃ³n off-site (continuidad) + snapshots (rollback rÃ¡pido) â€” cada capa cubre una amenaza distinta.
 
 ---
 
-## 4. La estrategia 3-2-1 (el estándar de oro)
+## 4. La estrategia 3-2-1 (el estÃ¡ndar de oro)
 
-![Regla 3-2-1](../../../assets/diagramas/backup-3-2-1.svg)
+![Regla 3-2-1](./diagramas/backup-3-2-1.svg)
 
-**3 copias** de los datos · **2 medios/formatos** distintos · **1 copia fuera del sitio**
+**3 copias** de los datos Â· **2 medios/formatos** distintos Â· **1 copia fuera del sitio**
 
 | Capa | Ejemplo |
 |------|---------|
-| Copia 1 | Disco local del servidor (producción) |
+| Copia 1 | Disco local del servidor (producciÃ³n) |
 | Copia 2 | NAS local o disco externo (backup programado) |
 | Copia 3 | **Nube / otro sitio** (S3, Google Drive cifrado, datacenter) |
 
-**Extra recomendado: 3-2-1-1** — la copia off-site debe ser **inmutable o aislada** para sobrevivir a ransomware (los atacantes borran los backups visibles).
+**Extra recomendado: 3-2-1-1** â€” la copia off-site debe ser **inmutable o aislada** para sobrevivir a ransomware (los atacantes borran los backups visibles).
 
 ---
 
@@ -81,9 +81,9 @@ flowchart LR
 
 | Herramienta | Tipo |
 |-------------|------|
-| **Veeam** | Estándar de la industria (VM, ruta gratuita limitada) |
-| **BorgBackup / restic / Duplicati** | Backup por archivos, cifrado, deduplicación — gratuitas y excelentes |
-| **`rsync`** | Copia incremental por línea de comandos (Linux) |
+| **Veeam** | EstÃ¡ndar de la industria (VM, ruta gratuita limitada) |
+| **BorgBackup / restic / Duplicati** | Backup por archivos, cifrado, deduplicaciÃ³n â€” gratuitas y excelentes |
+| **`rsync`** | Copia incremental por lÃ­nea de comandos (Linux) |
 | **`dd`** | Clonado bruto de discos (imagen completa) |
 | **Solutions cloud** | Azure Backup, AWS Backups, Google Vault/Drive, IDrive, Backblaze |
 | **Windows Server Backup / ntbackup sucesores** | Sistemas Windows |
@@ -95,11 +95,11 @@ rsync -av --delete /etc/ /backup/etc/
 # En el crontab: 0 2 * * *  rsync -av ... (02:00 diario)
 ```
 
-**Restauración**: se prueba, se prueba, se prueba. Un backup sin probar es un diploma de esperanza.
+**RestauraciÃ³n**: se prueba, se prueba, se prueba. Un backup sin probar es un diploma de esperanza.
 
 ---
 
-## 6. Plan de Recuperación ante Desastres (DR)
+## 6. Plan de RecuperaciÃ³n ante Desastres (DR)
 
 ```mermaid
 flowchart TD
@@ -110,31 +110,31 @@ flowchart TD
     E --> F[5. Revisar lecciones: que fallo, que mejorar\nactualizar runbook]
 ```
 
-**RTO del diseño**: para una PYME, meta razonable = restaurar servicios críticos en el mismo día (RTO ≤ 24 h) y datos con RPO ≤ 24 h, mejorable según críticas. **Probar el DR una vez al año como mínimo.**
+**RTO del diseÃ±o**: para una PYME, meta razonable = restaurar servicios crÃ­ticos en el mismo dÃ­a (RTO â‰¤ 24 h) y datos con RPO â‰¤ 24 h, mejorable segÃºn crÃ­ticas. **Probar el DR una vez al aÃ±o como mÃ­nimo.**
 
 ---
 
-## Práctica del módulo
+## PrÃ¡ctica del mÃ³dulo
 
-1. Configura un backup automático diario con `rsync` + `cron` en tu VM (carpetas /etc y /var/www).
-2. Rompe algo (borra un archivo del repositorio Web) y **restaura** desde tu backup — práctica real de restauración.
-3. En VirtualBox: crea 3 snapshots de tu VM y vuelve atrás; compara "snapshot vs backup".
-4. Diseña el plan 3-2-1 de "tu futuro cliente": memoria en papel de dónde va cada copia y cada cuánto.
+1. Configura un backup automÃ¡tico diario con `rsync` + `cron` en tu VM (carpetas /etc y /var/www).
+2. Rompe algo (borra un archivo del repositorio Web) y **restaura** desde tu backup â€” prÃ¡ctica real de restauraciÃ³n.
+3. En VirtualBox: crea 3 snapshots de tu VM y vuelve atrÃ¡s; compara "snapshot vs backup".
+4. DiseÃ±a el plan 3-2-1 de "tu futuro cliente": memoria en papel de dÃ³nde va cada copia y cada cuÃ¡nto.
 
 ## Plataformas gratuitas para practicar
 
-- **restic** (https://restic.net) y **BorgBackup** (https://www.borgbackup.org) — documentación impecable
-- **Veeam** (https://www.veeam.com) — versión Community
-- **rsync** tutorial: búsqueda en la web *"rsync tutorial backup"*
+- **restic** (https://restic.net) y **BorgBackup** (https://www.borgbackup.org) â€” documentaciÃ³n impecable
+- **Veeam** (https://www.veeam.com) â€” versiÃ³n Community
+- **rsync** tutorial: bÃºsqueda en la web *"rsync tutorial backup"*
 - Azure/AWS free tier para una copia off-site real en la nube
 
 ---
 
-## Checklist de dominio — Módulo 5
+## Checklist de dominio â€” MÃ³dulo 5
 
 - [ ] Explico full/incremental/diferencial y calculo RPO con ellos
-- [ ] Elijo RAID correcto según la carga de trabajo
-- [ ] Digo por qué "RAID no es backup" y "snapshot no es backup"
-- [ ] Diseño 3-2-1 (y 1-1 inmutable) para un cliente real
-- [ ] Configuro un backup automático real y **lo restauro con éxito**
-- [ ] Redacto un runbook DR con RPO/RTO y pasos de restauración
+- [ ] Elijo RAID correcto segÃºn la carga de trabajo
+- [ ] Digo por quÃ© "RAID no es backup" y "snapshot no es backup"
+- [ ] DiseÃ±o 3-2-1 (y 1-1 inmutable) para un cliente real
+- [ ] Configuro un backup automÃ¡tico real y **lo restauro con Ã©xito**
+- [ ] Redacto un runbook DR con RPO/RTO y pasos de restauraciÃ³n
