@@ -14,6 +14,14 @@
 
 ---
 
+## Diagramas de esta sección
+
+| Diagrama | Qué te enseña |
+|----------|---------------|
+| [Modelo TCP/IP de 5 capas](./0104-diagrama-modelo-tcpip.svg) | Las 5 capas y qué hace cada una, de un vistazo |
+
+---
+
 ## 1. Componentes básicos de una red
 
 | Componente | Función |

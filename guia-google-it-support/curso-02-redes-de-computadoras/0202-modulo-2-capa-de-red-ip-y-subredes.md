@@ -14,6 +14,14 @@
 
 ---
 
+## Diagramas de esta sección
+
+| Diagrama | Qué te enseña |
+|----------|---------------|
+| [Subnetting visual (el pastel)](./0202-diagrama-subredes.svg) | Cómo la máscara parte la red en subredes, sin fórmulas |
+
+---
+
 ## 1. La dirección IP (IPv4)
 
 32 bits agrupados en 4 octetos: `192.168.1.50` = `11000000.10101000.00000001.00110010`

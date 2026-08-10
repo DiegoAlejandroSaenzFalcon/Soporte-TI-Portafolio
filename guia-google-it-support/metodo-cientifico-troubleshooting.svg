@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 380" font-family="Segoe UI, Arial, sans-serif">
+  <rect width="920" height="380" fill="#f4f7fb"/>
+  <text x="460" y="38" text-anchor="middle" font-size="21" font-weight="bold" fill="#1e3a8a">EL METODO CIENTIFICO EN TROUBLESHOOTING — el circulo del diagnostico profesional</text>
+  <text x="460" y="62" text-anchor="middle" font-size="14" fill="#1e3a8a">Mismo protocolo que Galileo, Popper y el equipo de TI: formular hipotesis y someterlas a prueba</text>
+  <g font-size="14">
+    <rect x="60" y="100" width="200" height="56" rx="8" fill="#3b82f6"/>
+    <text x="160" y="125" text-anchor="middle" font-weight="bold" fill="#fff">1. OBSERVAR</text>
+    <text x="160" y="143" text-anchor="middle" fill="#e0edff">sintomas, logs, mensajes</text>
+    <path d="M 260 128 L 330 128" stroke="#0ea5e9" stroke-width="3" marker-end="url(#a)"/>
+    <rect x="335" y="100" width="200" height="56" rx="8" fill="#2563eb"/>
+    <text x="435" y="125" text-anchor="middle" font-weight="bold" fill="#fff">2. HIPOTESIS</text>
+    <text x="435" y="143" text-anchor="middle" fill="#dbeafe">posible causa (la mas probable)</text>
+    <path d="M 535 128 L 605 128" stroke="#0ea5e9" stroke-width="3" marker-end="url(#a)"/>
+    <rect x="610" y="100" width="200" height="56" rx="8" fill="#f59e0b"/>
+    <text x="710" y="125" text-anchor="middle" font-weight="bold" fill="#fff">3. EXPERIMENTO</text>
+    <text x="710" y="143" text-anchor="middle" fill="#fff8e1">prueba controlada y reversible</text>
+    <path d="M 710 156 L 710 220" stroke="#0ea5e9" stroke-width="3" marker-end="url(#a)"/>
+    <rect x="610" y="225" width="200" height="56" rx="8" fill="#10b981"/>
+    <text x="710" y="250" text-anchor="middle" font-weight="bold" fill="#fff">4. OBSERVAR RESULTADO</text>
+    <text x="710" y="268" text-anchor="middle" fill="#d1fae5">¿el sintoma desaparecio?</text>
+    <path d="M 605 253 L 537 253" stroke="#0ea5e9" stroke-width="3" marker-end="url(#a)"/>
+    <rect x="335" y="225" width="200" height="56" rx="8" fill="#8b5cf6"/>
+    <text x="435" y="250" text-anchor="middle" font-weight="bold" fill="#fff">5. CONCLUSION</text>
+    <text x="435" y="268" text-anchor="middle" fill="#ede9fe">documentar causa + solucion</text>
+    <path d="M 335 253 L 262 253" stroke="#f59e0b" stroke-width="3" stroke-dasharray="6 4" marker-end="url(#b)"/>
+    <text x="298" y="242" font-size="12" fill="#b45309">repites con</text>
+    <text x="298" y="257" font-size="12" fill="#b45309">nueva hipotesis</text>
+  </g>
+  <rect x="60" y="310" width="810" height="40" rx="8" fill="#1e3a8a"/>
+  <text x="460" y="335" text-anchor="middle" font-size="14" fill="#fff">Regla de oro: una sola variable por prueba · cambios reversibles · nunca saltes a tocar sin hipotesis</text>
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#0ea5e9"/></marker>
+    <marker id="b" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#f59e0b"/></marker>
+  </defs>
+</svg>

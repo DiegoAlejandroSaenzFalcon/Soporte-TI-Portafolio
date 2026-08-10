@@ -13,6 +13,14 @@
 
 ---
 
+## Diagramas de esta sección
+
+| Diagrama | Qué te enseña |
+|----------|---------------|
+| [Handshake TCP de 3 pasos](./0203-diagrama-handshake-tcp.svg) | Cómo cliente y servidor se saludan antes de hablar |
+
+---
+
 ## 1. TCP — Transmisión confiable
 
 **TCP (Transmission Control Protocol)** garantiza que los datos lleguen completos, en orden y sin duplicados.

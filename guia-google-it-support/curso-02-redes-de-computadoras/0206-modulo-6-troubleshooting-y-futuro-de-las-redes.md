@@ -12,6 +12,14 @@
 
 ---
 
+## Diagramas de esta sección
+
+| Diagrama | Qué te enseña |
+|----------|---------------|
+| [El viaje de un dato por las 5 capas](./0206-diagrama-viaje-dato-5-capas.svg) | Todo el recorrido de un mensaje real, de tu celular al servidor |
+
+---
+
 ## 1. La caja de herramientas del técnico de redes
 
 | Herramienta | Qué responde | Ejemplo |

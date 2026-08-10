@@ -13,6 +13,14 @@
 
 ---
 
+## Diagramas de esta sección
+
+| Diagrama | Qué te enseña |
+|----------|---------------|
+| [Tríada CIA](./0501-diagrama-triada-cia.svg) | Confidencialidad, integridad y disponibilidad: todo lo demás se apoya aquí |
+
+---
+
 ## 1. La tríada CIA (el fundamento de la seguridad)
 
 ![Tríada CIA](./0501-diagrama-triada-cia.svg)

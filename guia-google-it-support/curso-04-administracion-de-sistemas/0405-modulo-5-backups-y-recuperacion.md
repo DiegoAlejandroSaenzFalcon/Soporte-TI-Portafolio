@@ -13,6 +13,15 @@
 
 ---
 
+## Diagramas de esta sección
+
+| Diagrama | Qué te enseña |
+|----------|---------------|
+| [Niveles de RAID](./0405-diagrama-raid.svg) | Los 4 niveles más usados y cuándo elegir cada uno |
+| [Regla de backup 3-2-1](./0405-diagrama-backup-3-2-1.svg) | El estándar de oro de las copias de seguridad |
+
+---
+
 ## 1. Tipos de backup y su combinación
 
 | Tipo | Respaldas | Recuperación | Ejemplo semanal |
