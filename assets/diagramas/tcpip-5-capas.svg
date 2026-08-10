@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 470" font-family="Segoe UI, Arial, sans-serif">
+  <rect x="0" y="0" width="920" height="470" fill="#f4f7fb"/>
+  <rect x="0" y="0" width="920" height="52" fill="#1e3a8a"/>
+  <text x="460" y="33" text-anchor="middle" font-size="21" font-weight="bold" fill="#ffffff">MODELO TCP/IP DE 5 CAPAS — el mapa del tecnico de redes</text>
+  <g>
+    <rect x="60" y="80" width="560" height="56" rx="8" fill="#3b82f6"/>
+    <text x="95" y="108" font-size="16" font-weight="bold" fill="#ffffff">5 · Aplicacion</text>
+    <text x="300" y="108" font-size="14" fill="#e0edff">HTTP · HTTPS · DNS · SMTP · FTP</text>
+    <text x="660" y="108" font-size="14" fill="#1e3a8a">Tu navegador y apps</text>
+  </g>
+  <g>
+    <rect x="60" y="148" width="560" height="56" rx="8" fill="#60a5fa"/>
+    <text x="95" y="176" font-size="16" font-weight="bold" fill="#0b1f4d">4 · Transporte</text>
+    <text x="300" y="176" font-size="14" fill="#0b1f4d">TCP (confiable) · UDP (rapido) · puertos</text>
+    <text x="660" y="176" font-size="14" fill="#1e3a8a">Garantiza que llegue completo</text>
+  </g>
+  <g>
+    <rect x="60" y="216" width="560" height="56" rx="8" fill="#93c5fd"/>
+    <text x="95" y="244" font-size="16" font-weight="bold" fill="#0b1f4d">3 · Red</text>
+    <text x="300" y="244" font-size="14" fill="#0b1f4d">IP (IPv4 / IPv6) · ICMP · enrutamiento</text>
+    <text x="660" y="244" font-size="14" fill="#1e3a8a">A que direccion global? Que ruta?</text>
+  </g>
+  <g>
+    <rect x="60" y="284" width="560" height="56" rx="8" fill="#bfdbfe"/>
+    <text x="95" y="312" font-size="16" font-weight="bold" fill="#0b1f4d">2 · Enlace de datos</text>
+    <text x="300" y="312" font-size="14" fill="#0b1f4d">Ethernet / Wi-Fi · MAC · switches</text>
+    <text x="660" y="312" font-size="14" fill="#1e3a8a">Entre vecinos de la misma red</text>
+  </g>
+  <g>
+    <rect x="60" y="352" width="560" height="56" rx="8" fill="#dbeafe"/>
+    <text x="95" y="380" font-size="16" font-weight="bold" fill="#0b1f4d">1 · Fisica</text>
+    <text x="300" y="380" font-size="14" fill="#0b1f4d">Cables · fibra · ondas de radio</text>
+    <text x="660" y="380" font-size="14" fill="#1e3a8a">El medio donde viajan los bits</text>
+  </g>
+  <rect x="60" y="428" width="560" height="26" rx="6" fill="#e2e8f0"/>
+  <text x="340" y="446" text-anchor="middle" font-size="13" fill="#334155">Truco: los datos bajan las capas al enviarse y las suben al recibirse (como bajar y subir escalera)</text>
+</svg>

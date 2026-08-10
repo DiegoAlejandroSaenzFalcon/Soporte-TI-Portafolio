@@ -15,6 +15,8 @@
 
 ## 1. La tríada CIA (el fundamento de la seguridad)
 
+![Tríada CIA](../../../assets/diagramas/triada-cia.svg)
+
 | Pilar | Significa | Ejemplo de fallo |
 |-------|-----------|------------------|
 | **Confidencialidad** | Solo quien debe, puede ver | Fuga de datos personales |

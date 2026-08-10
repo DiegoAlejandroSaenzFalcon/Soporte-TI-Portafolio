@@ -32,6 +32,8 @@ sequenceDiagram
     Cliente->>Servidor: ACK (listo, comenzamos)
     Note over Cliente,Servidor: Datos en ambos sentidos…
 ```
+![Handshake TCP](../../../assets/diagramas/handshake-tcp.svg)
+
 **Puerto de origen**: aleatorio (ej. 52413). **Puerto de destino**: el servicio (ej. 443 para HTTPS).
 
 ---

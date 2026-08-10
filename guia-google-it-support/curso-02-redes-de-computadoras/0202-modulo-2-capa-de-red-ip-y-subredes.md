@@ -42,6 +42,8 @@ Dos partes: **red** (quién eres de dónde) + **host** (cuál eres). La **másca
 
 ¿Por qué subdividir? Para **separar redes** (seguridad, tráfico, organización) sin desperdiciar IPs.
 
+![Subnetting visual](../../../assets/diagramas/subredes.svg)
+
 **Ejemplo guiado**: la red 192.168.1.0/24 la necesitas en 4 subredes.
 1. 4 subredes → necesitas 2 bits (`2^2 = 4`) → máscara /26 (255.255.255.192).
 2. Cada subred tiene `2^6 - 2 = 62` hosts.

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 430" font-family="Segoe UI, Arial, sans-serif">
+  <rect width="920" height="430" fill="#f4f7fb"/>
+  <text x="460" y="38" text-anchor="middle" font-size="21" font-weight="bold" fill="#1e3a8a">SUBNETTING VISUAL — la red se divide como un pastel</text>
+  <text x="60" y="85" font-size="15" font-weight="bold" fill="#1e3a8a">Ejemplo: 192.168.1.50/24 ── la mascara 255.255.255.0 marca la frontera</text>
+  <rect x="60" y="100" width="130" height="52" rx="6" fill="#3b82f6"/>
+  <text x="125" y="132" text-anchor="middle" font-size="14" font-weight="bold" fill="#fff">192</text>
+  <rect x="196" y="100" width="130" height="52" rx="6" fill="#3b82f6"/>
+  <text x="261" y="132" text-anchor="middle" font-size="14" font-weight="bold" fill="#fff">168</text>
+  <rect x="332" y="100" width="130" height="52" rx="6" fill="#3b82f6"/>
+  <text x="397" y="132" text-anchor="middle" font-size="14" font-weight="bold" fill="#fff">1</text>
+  <rect x="468" y="100" width="130" height="52" rx="6" fill="#60a5fa"/>
+  <text x="533" y="132" text-anchor="middle" font-size="14" font-weight="bold" fill="#0b1f4d">50</text>
+  <text x="60" y="185" font-size="13" font-weight="bold" fill="#1e3a8a">PARTE DE RED (de donde eres)  ··············  PARTE DE HOST (cual eres)</text>
+  <text x="60" y="225" font-size="15" font-weight="bold" fill="#1e3a8a">Dividir en 4 subredes = tomar 2 bits prestados = /26</text>
+  <g font-size="13">
+    <rect x="60" y="240" width="205" height="34" rx="6" fill="#dbeafe"/>
+    <text x="70" y="261" fill="#0b1f4d">Subred 1: .0 → .1 a .62</text>
+    <rect x="275" y="240" width="205" height="34" rx="6" fill="#dbeafe"/>
+    <text x="285" y="261" fill="#0b1f4d">Subred 2: .64 → .65 a .126</text>
+    <rect x="490" y="240" width="205" height="34" rx="6" fill="#dbeafe"/>
+    <text x="500" y="261" fill="#0b1f4d">Subred 3: .128 → .129 a .190</text>
+    <rect x="705" y="240" width="170" height="34" rx="6" fill="#bfdbfe"/>
+    <text x="715" y="261" fill="#0b1f4d">Subred 4: .192</text>
+  </g>
+  <rect x="60" y="300" width="830" height="30" rx="6" fill="#1e3a8a"/>
+  <text x="475" y="319" text-anchor="middle" font-size="14" fill="#fff">Truco: 2^bits prestados = nº de subredes · 2^hosts - 2 = IPs utiles</text>
+  <rect x="60" y="350" width="830" height="30" rx="6" fill="#3b82f6"/>
+  <text x="475" y="369" text-anchor="middle" font-size="14" fill="#fff">Haz 20 ejercicios en subnettingpractice.com y esto se vuelve automatico</text>
+</svg>

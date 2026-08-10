@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 420" font-family="Segoe UI, Arial, sans-serif">
+  <rect width="920" height="420" fill="#f4f7fb"/>
+  <text x="460" y="38" text-anchor="middle" font-size="21" font-weight="bold" fill="#1e3a8a">EL VIAJE DE UN DATO POR LAS 5 CAPAS — un mensaje real</text>
+  <text x="60" y="80" font-size="15" font-weight="bold" fill="#1e3a8a">Envias un WhatsApp desde tu celular al servidor de WhatsApp:</text>
+  <g font-size="14">
+    <rect x="60" y="100" width="230" height="40" rx="6" fill="#3b82f6"/>
+    <text x="175" y="125" text-anchor="middle" font-weight="bold" fill="#fff">5 · Aplicacion: el mensaje</text>
+    <rect x="60" y="150" width="230" height="40" rx="6" fill="#60a5fa"/>
+    <text x="175" y="175" text-anchor="middle" fill="#0b1f4d">4 · Transporte: TCP lo parte en paquetes</text>
+    <rect x="60" y="200" width="230" height="40" rx="6" fill="#93c5fd"/>
+    <text x="175" y="225" text-anchor="middle" fill="#0b1f4d">3 · Red: IP pone direccion origen/destino</text>
+    <rect x="60" y="250" width="230" height="40" rx="6" fill="#bfdbfe"/>
+    <text x="175" y="275" text-anchor="middle" fill="#0b1f4d">2 · Enlace: Wi-Fi agrega MAC del router</text>
+    <rect x="60" y="300" width="230" height="40" rx="6" fill="#dbeafe"/>
+    <text x="175" y="325" text-anchor="middle" fill="#0b1f4d">1 · Fisica: ondas de radio viajan</text>
+    <text x="330" y="210" font-size="40" fill="#1e3a8a">→</text>
+    <rect x="380" y="100" width="230" height="40" rx="6" fill="#dbeafe"/>
+    <text x="495" y="125" text-anchor="middle" fill="#0b1f4d">1 · Fisica: el router recibe las ondas</text>
+    <rect x="380" y="150" width="230" height="40" rx="6" fill="#bfdbfe"/>
+    <text x="495" y="175" text-anchor="middle" fill="#0b1f4d">2 · Enlace: lee la MAC, quita esa capa</text>
+    <rect x="380" y="200" width="230" height="40" rx="6" fill="#93c5fd"/>
+    <text x="495" y="225" text-anchor="middle" fill="#0b1f4d">3 · Red: lee el IP, decide la ruta</text>
+    <rect x="380" y="250" width="230" height="40" rx="6" fill="#60a5fa"/>
+    <text x="495" y="275" text-anchor="middle" fill="#0b1f4d">4 · Transporte: el servidor une paquetes</text>
+    <rect x="380" y="300" width="230" height="40" rx="6" fill="#3b82f6"/>
+    <text x="495" y="325" text-anchor="middle" font-weight="bold" fill="#fff">5 · Aplicacion: mensaje entregado ✓</text>
+  </g>
+  <rect x="660" y="100" width="210" height="240" rx="8" fill="#1e3a8a"/>
+  <text x="765" y="130" text-anchor="middle" font-size="15" font-weight="bold" fill="#fff">ANALOGIA</text>
+  <text x="765" y="165" text-anchor="middle" font-size="13" fill="#e0edff">1 · Carta en sobre</text>
+  <text x="765" y="188" text-anchor="middle" font-size="13" fill="#e0edff">2 · Direccion del</text>
+  <text x="765" y="206" text-anchor="middle" font-size="13" fill="#e0edff">edificio</text>
+  <text x="765" y="234" text-anchor="middle" font-size="13" fill="#e0edff">3 · Ciudad del</text>
+  <text x="765" y="252" text-anchor="middle" font-size="13" fill="#e0edff">destino</text>
+  <text x="765" y="280" text-anchor="middle" font-size="13" fill="#e0edff">4 · Peso y fragil</text>
+  <text x="765" y="298" text-anchor="middle" font-size="13" fill="#e0edff">(control de envio)</text>
+  <text x="765" y="326" text-anchor="middle" font-size="13" fill="#e0edff">5 · El mensaje</text>
+  <rect x="60" y="360" width="810" height="34" rx="6" fill="#f59e0b"/>
+  <text x="460" y="382" text-anchor="middle" font-size="14" fill="#fff">Al llegar, el receptor recorre las capas AL REVES: 1 → 2 → 3 → 4 → 5</text>
+</svg>

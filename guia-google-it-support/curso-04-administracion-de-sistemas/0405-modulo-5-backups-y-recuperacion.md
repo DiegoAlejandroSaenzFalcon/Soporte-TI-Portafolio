@@ -41,6 +41,8 @@ flowchart LR
 | **5** | 3 | Paridad distribuida | 1 disco falla y sigues; buen equilibrio |
 | **10** | 4 | Espejo + stripe | Rápido + tolerante (bases de datos) |
 
+![Niveles de RAID](../../../assets/diagramas/raid-niveles.svg)
+
 > **RAID ≠ backup**: RAID protege contra **fallo de disco físico**, no contra errores humanos, ransomware, incendio o borrado accidental. El ransomware cifra los discos RAID por igual.
 
 ---
@@ -60,6 +62,8 @@ flowchart LR
 ---
 
 ## 4. La estrategia 3-2-1 (el estándar de oro)
+
+![Regla 3-2-1](../../../assets/diagramas/backup-3-2-1.svg)
 
 **3 copias** de los datos · **2 medios/formatos** distintos · **1 copia fuera del sitio**
 

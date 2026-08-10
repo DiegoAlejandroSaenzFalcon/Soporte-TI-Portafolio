@@ -41,6 +41,8 @@ flowchart TD
     J -- Si --> L[Todo OK: problema especifico del equipo/app]
 ```
 
+![El viaje de un dato por las 5 capas](../../../assets/diagramas/viaje-dato-5-capas.svg)
+
 ---
 
 ## 2. Incidentes típicos y sus causas №1

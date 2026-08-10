@@ -47,6 +47,8 @@ flowchart TB
     D --> E[Capa 1 - Fisica\nSeñales, cables, ondas]
 ```
 
+![Modelo TCP/IP de 5 capas](../../../assets/diagramas/tcpip-5-capas.svg)
+
 **Ejemplo cotidiano** (envías un mensaje de WhatsApp):
 
 1. **Física**: la señal Wi-Fi del celular hacia el router.

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 420" font-family="Segoe UI, Arial, sans-serif">
+  <rect width="920" height="420" fill="#f4f7fb"/>
+  <text x="460" y="38" text-anchor="middle" font-size="21" font-weight="bold" fill="#1e3a8a">HANDSHAKE TCP — la llamada de tres pasos antes de hablar</text>
+  <rect x="60" y="90" width="220" height="46" rx="6" fill="#3b82f6"/>
+  <text x="170" y="118" text-anchor="middle" font-size="16" font-weight="bold" fill="#fff">CLIENTE (tu PC)</text>
+  <rect x="640" y="90" width="220" height="46" rx="6" fill="#1e3a8a"/>
+  <text x="750" y="118" text-anchor="middle" font-size="16" font-weight="bold" fill="#fff">SERVIDOR</text>
+  <path d="M 280 130 L 640 130" stroke="#0ea5e9" stroke-width="4" marker-end="url(#arr)"/>
+  <text x="460" y="122" text-anchor="middle" font-size="15" fill="#0ea5e9" font-weight="bold">1. SYN — puedo hablar?</text>
+  <path d="M 640 170 L 280 170" stroke="#f59e0b" stroke-width="4" marker-end="url(#arr2)"/>
+  <text x="460" y="162" text-anchor="middle" font-size="15" fill="#b45309" font-weight="bold">2. SYN-ACK — si, yo tambien quiero</text>
+  <path d="M 280 210 L 640 210" stroke="#10b981" stroke-width="4" marker-end="url(#arr3)"/>
+  <text x="460" y="202" text-anchor="middle" font-size="15" fill="#047857" font-weight="bold">3. ACK — listo, hablemos (comienza la transferencia)</text>
+  <rect x="60" y="260" width="800" height="34" rx="6" fill="#dbeafe"/>
+  <text x="460" y="282" text-anchor="middle" font-size="14" fill="#0b1f4d">Desde ahi, cada segmento se enumera y se confirma — si un ACK no llega, se reenvia</text>
+  <rect x="60" y="310" width="800" height="34" rx="6" fill="#1e3a8a"/>
+  <text x="460" y="332" text-anchor="middle" font-size="14" fill="#fff">Analogia: lo mismo que saludar a alguien antes de abrazarlo — sin saludo, sin charla</text>
+  <rect x="60" y="360" width="800" height="34" rx="6" fill="#3b82f6"/>
+  <text x="460" y="382" text-anchor="middle" font-size="14" fill="#fff">Practica: capturalo en Wireshark filtrando tcp.port == 443 al visitar un sitio</text>
+  <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#0ea5e9"/></marker>
+    <marker id="arr2" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#f59e0b"/></marker>
+    <marker id="arr3" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#10b981"/></marker>
+  </defs>
+</svg>

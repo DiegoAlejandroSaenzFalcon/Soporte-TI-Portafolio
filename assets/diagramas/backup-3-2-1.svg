@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 420" font-family="Segoe UI, Arial, sans-serif">
+  <rect width="920" height="420" fill="#f4f7fb"/>
+  <text x="460" y="38" text-anchor="middle" font-size="21" font-weight="bold" fill="#1e3a8a">BACKUP 3-2-1 — la regla que resiste incendios, robos y ransomware</text>
+  <rect x="60" y="70" width="270" height="26" rx="6" fill="#1e3a8a"/>
+  <text x="195" y="87" text-anchor="middle" font-size="15" font-weight="bold" fill="#fff">3 COPIAS de tus datos</text>
+  <rect x="60" y="105" width="80" height="60" rx="6" fill="#93c5fd"/>
+  <text x="100" y="140" text-anchor="middle" font-size="13" fill="#0b1f4d">Original</text>
+  <rect x="155" y="105" width="80" height="60" rx="6" fill="#93c5fd"/>
+  <text x="195" y="140" text-anchor="middle" font-size="13" fill="#0b1f4d">Backup A</text>
+  <rect x="250" y="105" width="80" height="60" rx="6" fill="#93c5fd"/>
+  <text x="290" y="140" text-anchor="middle" font-size="13" fill="#0b1f4d">Backup B</text>
+  <rect x="390" y="70" width="270" height="26" rx="6" fill="#1e3a8a"/>
+  <text x="525" y="87" text-anchor="middle" font-size="15" font-weight="bold" fill="#fff">2 MEDIOS distintos</text>
+  <rect x="390" y="105" width="120" height="60" rx="6" fill="#6ee7b7"/>
+  <text x="450" y="140" text-anchor="middle" font-size="13" fill="#0b1f4d">Disco/NAS</text>
+  <rect x="540" y="105" width="120" height="60" rx="6" fill="#6ee7b7"/>
+  <text x="600" y="140" text-anchor="middle" font-size="13" fill="#0b1f4d">Nube/SD</text>
+  <rect x="720" y="70" width="200" height="26" rx="6" fill="#1e3a8a"/>
+  <text x="820" y="87" text-anchor="middle" font-size="15" font-weight="bold" fill="#fff">1 FUERA del sitio</text>
+  <rect x="720" y="105" width="200" height="60" rx="6" fill="#fcd34d"/>
+  <text x="820" y="130" text-anchor="middle" font-size="13" fill="#0b1f4d">Nube / otro edificio</text>
+  <text x="820" y="150" text-anchor="middle" font-size="13" fill="#0b1f4d">(incendio aqui no la toca)</text>
+  <rect x="60" y="200" width="860" height="34" rx="6" fill="#3b82f6"/>
+  <text x="460" y="222" text-anchor="middle" font-size="14" fill="#fff">2 tipos de almacenamiento = si un medio muere, el otro sigue</text>
+  <rect x="60" y="250" width="860" height="34" rx="6" fill="#f59e0b"/>
+  <text x="460" y="272" text-anchor="middle" font-size="14" fill="#fff">1 copia lejos = ransomware, robo o incendio no borran todo</text>
+  <rect x="60" y="300" width="860" height="34" rx="6" fill="#10b981"/>
+  <text x="460" y="322" text-anchor="middle" font-size="14" fill="#fff">EXTRA 3-2-1-1: haz la copia de la nube INMUTABLE (nadie la borra, ni el atacante)</text>
+  <rect x="60" y="350" width="860" height="34" rx="6" fill="#1e3a8a"/>
+  <text x="460" y="372" text-anchor="middle" font-size="14" fill="#fff">Regla final: un backup que nunca se resto... no existe. Pruebalo siempre</text>
+</svg>
