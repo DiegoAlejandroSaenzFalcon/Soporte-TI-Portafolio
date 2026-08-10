@@ -28,6 +28,33 @@
 | **04 · Administración de Sistemas e Infraestructura** | 6 | [Ver guía](./guia-google-it-support/curso-04-administracion-de-sistemas/README.md) |
 | **05 · Seguridad Informática** | 6 | [Ver guía](./guia-google-it-support/curso-05-seguridad-informatica/README.md) |
 
+### Qué aprenderás en cada curso
+
+**1. Fundamentos de Soporte Técnico** → Hardware, troubleshooting y servicio al cliente
+- Componentes de PC (CPU, RAM, almacenamiento, placa base, fuente), ensamblaje y hardware móvil
+- Sistemas operativos, redes básicas y software de principio a fin
+- Metodología de 7 pasos, empatía, tickets, prioridades y SLA
+
+**2. Redes de Computadoras** → TCP/IP, DNS, DHCP, enrutamiento
+- Modelo TCP/IP de 5 capas, cables, switches y routers
+- IP, máscaras, **subnetting** a mano y IPv6
+- TCP vs UDP, puertos, NAT, VPN, Wi-Fi, ISP y diagnóstico con ping/traceroute/nslookup
+
+**3. Sistemas Operativos** → Procesos, permisos, almacenamiento, acceso remoto
+- Navegación por terminal y estructura de archivos de Windows/Linux
+- Usuarios, grupos, permisos (rwx/ACL), UAC y sudo
+- Gestores de paquetes, NTFS/ext4, procesos, rendimiento y limpieza de malware
+
+**4. Administración de Sistemas e Infraestructura TI** → Active Directory, virtualización, backups, monitoreo
+- Servidores web y correo, DNS/DHCP en producción
+- Servicios de directorio (Active Directory, Entra ID, GPO)
+- RAID, backups 3-2-1, RPO/RTO, recuperación de desastres y casos integradores de entrevista
+
+**5. Seguridad TI** → Malware, criptografía, AAA, respuesta a incidentes, hardening
+- Tríada CIA, tipos de malware, ataques de red e ingeniería social
+- Cifrado simétrico/asimétrico, hashing, TLS y certificados (PKI)
+- Firewalls, VPN, Wi-Fi seguro, defensa en profundidad y el ciclo NIST de respuesta a incidentes
+
 ---
 
 ## Recursos gratuitos maestros (para toda la ruta)
