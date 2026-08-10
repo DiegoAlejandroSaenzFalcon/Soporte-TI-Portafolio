@@ -1,7 +1,6 @@
-# Sistemas Operativos y Tú: Dominando la Máquina
+# 03 · Sistemas Operativos
 
-> **Curso 3 — Especialización de Soporte TI de Google**
-> **Nivel**: Soporte Nivel 1 / Administración
+> Guía práctica de conocimiento · Administración y diagnóstico
 
 ---
 

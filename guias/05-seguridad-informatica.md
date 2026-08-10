@@ -1,7 +1,6 @@
-# Seguridad TI: Defensa contra las Amenazas Digitales
+# 05 · Seguridad Informática
 
-> **Curso 5 — Especialización de Soporte TI de Google**
-> **Nivel**: Seguridad Operativa
+> Guía práctica de conocimiento · Defensa operativa
 
 ---
 

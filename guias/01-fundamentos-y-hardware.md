@@ -1,7 +1,6 @@
-# Fundamentos de Soporte Técnico (Technical Support Fundamentals)
+# 01 · Fundamentos de Soporte Técnico y Hardware
 
-> **Curso 1 — Especialización de Soporte TI de Google**
-> **Nivel**: Soporte Nivel 1 y Nivel 2
+> Guía práctica de conocimiento · Soporte Nivel 1 y 2
 
 ---
 

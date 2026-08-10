@@ -1,7 +1,6 @@
-# Administración de Sistemas y Servicios de Infraestructura TI
+# 04 · Administración de Sistemas e Infraestructura TI
 
-> **Curso 4 — Especialización de Soporte TI de Google**
-> **Nivel**: Sysadmin / Infraestructura
+> Guía práctica de conocimiento · Sysadmin / Datacenter
 
 ---
 

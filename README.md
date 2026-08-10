@@ -1,19 +1,54 @@
-# Portafolio y Documentación de Soporte TI — Diego Alejandro Saenz Falcon
+# Diego Alejandro Saenz Falcon
 
-Bienvenido a mi repositorio público de documentación técnica, certificaciones y apuntes prácticos sobre Soporte TI, Redes, Sistemas Operativos, Administración de Infraestructura y Ciberseguridad.
+### Soporte TI · Redes · Ciberseguridad · Automatización
 
-Este espacio recopila mis conocimientos técnicos aplicados, estructurados como manuales didácticos y de referencia rápida.
+> Portafolio profesional de conocimiento técnico aplicado: manuales prácticos que explico, domino y uso para diagnosticar, resolver y prevenir problemas tecnológicos de usuarios y empresas.
+
+---
+
+## Áreas de conocimiento
+
+| # | Guía | Qué encontrarás |
+|---|------|-----------------|
+| 01 | [Fundamentos y Hardware](./guias/01-fundamentos-y-hardware.md) | Componentes de PC, sistemas operativos, ciclo de tickets y atención al cliente |
+| 02 | [Redes de Computadoras](./guias/02-redes-de-computadoras.md) | TCP/IP, DNS, DHCP, enrutamiento y diagnóstico de red paso a paso |
+| 03 | [Sistemas Operativos](./guias/03-sistemas-operativos.md) | Procesos, permisos, almacenamiento, rendimiento y acceso remoto |
+| 04 | [Administración e Infraestructura](./guias/04-administracion-e-infraestructura.md) | Active Directory, virtualización, backups, monitoreo y recuperación |
+| 05 | [Seguridad Informática](./guias/05-seguridad-informatica.md) | Malware, criptografía, autenticación, hardening y respuesta a incidentes |
 
 ---
 
-## Estructura del Portafolio
+## Mi día a día
 
-- **[Google IT Support Professional Certificate](./google-it-support/README.md)** — Especialización completa (5 cursos):
-  1. Fundamentos de Soporte Técnico → Hardware, troubleshooting y servicio al cliente.
-  2. Bits y Bytes de las Redes de Computadoras → TCP/IP, DNS, DHCP, enrutamiento.
-  3. Sistemas Operativos y Tú → Procesos, permisos, almacenamiento, acceso remoto.
-  4. Administración de Sistemas e Infraestructura TI → Active Directory, virtualización, backups, monitoreo.
-  5. Seguridad TI → Malware, criptografía, AAA, respuesta a incidentes, hardening.
+- Diagnóstico y resolución de incidentes de **hardware, software y red** (Nivel 1 y 2).
+- **Automatización de soporte con scripts** (PowerShell) e inteligencia artificial.
+- Protección de equipos y datos: *hardening*, respaldos 3-2-1 y respuesta ante malware real.
+
+## Herramientas que domino
+
+| Área | Herramientas |
+|------|--------------|
+| Sistemas | Windows (NTFS, RDP, PowerShell), Linux (bash, systemd, SSH) |
+| Redes | Diagnóstico TCP/IP, DNS/DHCP, Wi-Fi, routers y switches |
+| Seguridad | Antivirus/EDR, firewalls, VPN, cifrado de disco, 2FA |
+| Automatización | PowerShell, agentes de IA, Git y GitHub |
 
 ---
-*Autor: Diego Alejandro Saenz Falcon*
+
+## Proyectos
+
+| Proyecto | Descripción | Visibilidad |
+|----------|-------------|-------------|
+| **Soluciona** | Motor personal de soporte TI automatizado: tickets, agentes de IA y base de conocimiento | Privado |
+| **Soporte-TI-Portafolio** | Esta guía profesional de conocimiento técnico | Público |
+
+## Formación
+
+- Google IT Support Professional Certificate (en curso) — base de estudio para documentar esta guía.
+- Aprendizaje continuo y autodidacta en redes, seguridad y automatización.
+
+---
+
+## Contacto
+
+- GitHub: [DiegoAlejandroSaenzFalcon](https://github.com/DiegoAlejandroSaenzFalcon)

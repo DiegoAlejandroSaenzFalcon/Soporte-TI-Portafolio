@@ -1,7 +1,6 @@
-# Manual Técnico de Redes: Bits y Bytes de las Redes de Computadoras
+# 02 · Redes de Computadoras — Manual Técnico
 
-> **Curso 2 — Especialización de Soporte TI de Google**
-> **Nivel**: Ingeniería de Soporte
+> Guía práctica de conocimiento · Networking y resolución de problemas
 
 ---
 
