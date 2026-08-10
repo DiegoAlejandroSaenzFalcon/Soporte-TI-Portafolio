@@ -85,4 +85,10 @@
 
 ---
 
+## ¿Es tu primera vez en GitHub?
+
+Si este es tu primer repositorio, empieza aquí: [**Guía de GitHub para principiantes**](./guia-github-basico/README.md) — explica cómo navegar este proyecto, entender el orden de los archivos, leer los documentos y descargar todo en ZIP. Sin saber git, en 10 minutos. La zona de estudio es siempre la pestaña **Code**.
+
+---
+
 *Autor: Diego Alejandro Saenz Falcon* · https://github.com/DiegoAlejandroSaenzFalcon
