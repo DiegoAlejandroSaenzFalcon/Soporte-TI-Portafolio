@@ -37,6 +37,7 @@
 |------|-----------|--------|
 | **Introducción a la Informática (Microsoft)** | Hardware, SO, sistemas empresariales, seguridad, negocio y proyecto final — 6 módulos | [Ver guía](./guia-microsoft-introduccion-a-la-informatica/README.md) |
 | **GitHub para principiantes** | Cómo navegar este repositorio sin saber git | [Ver guía](./guia-github-basico/README.md) |
+| **Conectar el Google TV a internet** | Guía de bolsillo para personas mayores: puntos de acceso Android, Google TV, problemas comunes — 3 módulos con dibujos | [Ver guía](./guia-conectar-google-tv/README.md) |
 
 ### Qué aprenderás en cada curso
 

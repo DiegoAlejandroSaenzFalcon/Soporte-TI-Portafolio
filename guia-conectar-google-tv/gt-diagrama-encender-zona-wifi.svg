@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 320" font-family="Segoe UI, Arial, sans-serif">
+  <rect width="920" height="320" fill="#f4f7fb"/>
+  <text x="460" y="36" text-anchor="middle" font-size="21" font-weight="bold" fill="#1e3a8a">ENCENDER LA ZONA WI-FI — lo que ves en el celular</text>
+  <rect x="30" y="70" width="330" height="220" rx="18" fill="#1e3a8a"/>
+  <rect x="42" y="82" width="306" height="196" rx="12" fill="#fff"/>
+  <text x="195" y="112" text-anchor="middle" font-size="14" font-weight="bold" fill="#1e3a8a">ZONA WI-FI PORTATIL</text>
+  <rect x="62" y="126" width="266" height="52" rx="10" fill="#e3f2fd"/>
+  <path d="M 92 146 a 14 14 0 0 1 24 0" fill="none" stroke="#0b5394" stroke-width="4"/>
+  <path d="M 92 162 a 26 26 0 0 1 42 0" fill="none" stroke="#0b5394" stroke-width="4"/>
+  <path d="M 92 178 a 38 38 0 0 1 60 0" fill="none" stroke="#0b5394" stroke-width="4"/>
+  <circle cx="107" cy="193" r="4" fill="#0b5394"/>
+  <text x="158" y="150" font-size="13" font-weight="bold" fill="#0b5394">Nombre: Mi Celular 1234</text>
+  <text x="158" y="170" font-size="13" fill="#0b5394">Contrasena: abc987</text>
+  <text x="282" y="160" text-anchor="middle" font-size="12" font-weight="bold" fill="#fff">ON</text>
+  <rect x="266" y="146" width="38" height="24" rx="12" fill="#34c759"/>
+  <circle cx="287" cy="158" r="9" fill="#fff"/>
+  <text x="62" y="212" font-size="13" fill="#374151">1. Desliza el dedo desde ARRIBA de la pantalla</text>
+  <text x="62" y="232" font-size="13" fill="#374151">2. Toca el icono de "Zona Wi-Fi" (el de las ondas)</text>
+  <text x="62" y="252" font-size="13" fill="#374151">3. Anota NOMBRE y CONTRASENA en el papel</text>
+  <rect x="400" y="90" width="490" height="150" rx="10" fill="#fff7ed"/>
+  <text x="420" y="120" font-size="15" font-weight="bold" fill="#7c2d12">REGLA DE ORO PARA PAPA</text>
+  <text x="420" y="146" font-size="13" fill="#9a3412">- Las mayusculas y minusculas IMPORTAN: copialas tal cual</text>
+  <text x="420" y="168" font-size="13" fill="#9a3412">- Si la contrasena tiene letras, el televisor puede equivocarse</text>
+  <text x="420" y="190" font-size="13" fill="#9a3412">  -> solucion facil: cambiala en el celular a SOLO NUMEROS</text>
+  <text x="420" y="212" font-size="13" fill="#9a3412">  (ejemplo: 12345678) — asi ya no falla nunca</text>
+  <text x="420" y="228" font-size="13" fill="#9a3412">- Deja el celular CONECTADO AL CARGADOR mientras vez TV</text>
+  <rect x="400" y="262" width="490" height="30" rx="8" fill="#e8f5e9"/>
+  <text x="645" y="282" text-anchor="middle" font-size="13" font-weight="bold" fill="#1b5e20">NO SIGAS AL SIGUIENTE PASO SIN EL NOMBRE Y LA CONTRASENA ANOTADOS</text>
+</svg>

@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Guía: Conectar el televisor a internet con el celular</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    line-height: 1.6;
+    background: #f2f4f7;
+    color: #1a2733;
+  }
+
+  header.arriba {
+    background: #0b5394;
+    color: #ffffff;
+    padding: 40px 24px 46px 24px;
+    text-align: center;
+  }
+
+  header.arriba h1 {
+    font-size: 42px;
+    line-height: 1.2;
+    margin-bottom: 16px;
+  }
+
+  header.arriba p {
+    font-size: 24px;
+    max-width: 820px;
+    margin: 0 auto;
+  }
+
+  nav {
+    position: sticky;
+    top: 0;
+    background: #083b6b;
+    padding: 14px 12px;
+    text-align: center;
+    z-index: 10;
+  }
+
+  nav a {
+    display: inline-block;
+    color: #ffffff;
+    background: #125a9e;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 12px 18px;
+    margin: 4px;
+    border-radius: 10px;
+    border: 2px solid #ffffff;
+  }
+
+  nav a:hover { background: #1a6cb8; }
+
+  main {
+    max-width: 860px;
+    margin: 0 auto;
+    padding: 30px 20px 60px 20px;
+  }
+
+  .carta {
+    background: #ffffff;
+    border-radius: 14px;
+    padding: 30px;
+    margin: 26px 0;
+    border-left: 10px solid #0b5394;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+  }
+
+  .carta.verde { border-left-color: #2e7d32; }
+
+  .carta h2 {
+    font-size: 30px;
+    color: #0b5394;
+    margin-bottom: 18px;
+  }
+
+  .carta.verde h2 { color: #2e7d32; }
+
+  .carta h3 {
+    font-size: 26px;
+    color: #1a2733;
+    margin: 22px 0 12px 0;
+  }
+
+  .carta p, .carta li {
+    font-size: 22px;
+    margin-bottom: 10px;
+  }
+
+  .carta ul { padding-left: 30px; }
+
+  .numero {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 18px;
+  }
+
+  .numero .circulo {
+    background: #0b5394;
+    color: #ffffff;
+    font-size: 26px;
+    font-weight: bold;
+    min-width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 16px;
+    margin-top: 2px;
+    flex-shrink: 0;
+  }
+
+  .numero .texto { flex: 1; }
+
+  .numero .texto b { color: #0b5394; }
+
+  .aviso {
+    background: #fff8e1;
+    border: 2px solid #f9a825;
+    border-radius: 12px;
+    padding: 16px 20px;
+    margin: 18px 0;
+    font-size: 22px;
+  }
+
+  .aviso.azul {
+    background: #e3f2fd;
+    border-color: #0b5394;
+  }
+
+  .recuadro-datos {
+    background: #e8f5e9;
+    border: 3px dashed #2e7d32;
+    border-radius: 12px;
+    padding: 20px;
+    margin-top: 16px;
+  }
+
+  .recuadro-datos p { margin-bottom: 6px; }
+
+  .problema {
+    background: #ffffff;
+    border: 2px solid #c62828;
+    border-radius: 12px;
+    padding: 20px;
+    margin: 16px 0;
+  }
+
+  .problema .titulo-problema {
+    font-size: 22px;
+    font-weight: bold;
+    color: #c62828;
+    margin-bottom: 8px;
+  }
+
+  .problema .titulo-problema strong {
+    background: #c62828;
+    color: #ffffff;
+    padding: 3px 10px;
+    border-radius: 6px;
+    font-size: 20px;
+    margin-right: 8px;
+  }
+
+  .problema .solucion { margin-top: 6px; }
+
+  .problema .solucion strong { color: #2e7d32; }
+
+  .boton-grande {
+    display: block;
+    text-align: center;
+    background: #2e7d32;
+    color: #ffffff;
+    font-size: 26px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 18px;
+    border-radius: 12px;
+    margin-top: 18px;
+  }
+
+  .boton-grande:hover { background: #1b5e20; }
+
+  .espacio-fotos {
+    border: 4px dashed #90a4ae;
+    border-radius: 14px;
+    padding: 28px;
+    text-align: center;
+    color: #546e7a;
+    font-size: 22px;
+    margin-top: 20px;
+  }
+
+  footer {
+    background: #083b6b;
+    color: #ffffff;
+    text-align: center;
+    padding: 26px;
+    font-size: 19px;
+  }
+
+  @media print {
+    nav { display: none; }
+    body { background: #ffffff; font-size: 18px; }
+    .carta { box-shadow: none; border: 2px solid #999; }
+  }
+</style>
+</head>
+<body>
+
+<header class="arriba">
+  <h1>Conectar el televisor a internet<br>con el celular</h1>
+  <p>Guía paso a paso para ver YouTube, Netflix y otras aplicaciones en el televisor usando los datos de internet del celular.</p>
+</header>
+
+<nav>
+  <a href="#requisitos">Lo que necesitas</a>
+  <a href="#parte1">Parte 1: Celular</a>
+  <a href="#parte2">Parte 2: Televisor</a>
+  <a href="#parte3">Parte 3: Consejos</a>
+  <a href="#parte4">Parte 4: Problemas</a>
+</nav>
+
+<main>
+
+  <div class="aviso azul" id="requisitos">
+    <b>Importante:</b> esta guía está hecha para ir con calma. Tómate el tiempo que necesites con cada paso, no hay apuro.
+  </div>
+
+  <section class="carta" id="requisitos">
+    <h2>Lo que necesitas</h2>
+    <ul>
+      <li>Un celular Android con internet de datos móviles (del plan de tu compañía).</li>
+      <li>Un televisor con Google TV (o Android TV).</li>
+      <li>Que el celular tenga batería (de preferencia, conectado al cargador).</li>
+      <li>Un papel y un lápiz para anotar dos datos.</li>
+    </ul>
+
+    <div class="aviso">
+      <b>¿Qué se va a hacer?</b> Vamos a convertir el celular en un "punto de internet" (como el modem de la casa). El televisor se va a conectar al celular de la misma forma que se conecta a la red Wi-Fi de la casa.
+    </div>
+
+    <p><b>Importante:</b> al final de esta página hay un espacio para poner fotos que te ayuden a recordar (por ejemplo, fotos de la pantalla de tu celular o de tu televisor).</p>
+  </section>
+
+  <section class="carta" id="parte1">
+    <h2>Parte 1: Encender el punto de internet en el celular</h2>
+
+    <div class="numero">
+      <div class="circulo">1</div>
+      <div class="texto">
+        Toma el celular y busca el icono de <b>Ajustes</b> o <b>Configuración</b>. Es el icono de un engranaje (una rueda con dientes). Está normalmente en el menú principal o al deslizar la pantalla hacia abajo.
+      </div>
+    </div>
+
+    <div class="numero">
+      <div class="circulo">2</div>
+      <div class="texto">
+        Dentro de Ajustes, busca una opción que se llame <b>"Zona Wi-Fi"</b>, <b>"Punto de acceso"</b> o <b>"Compartir internet"</b>.
+        <br><br>
+        <i>Dato útil:</i> en muchos celulares esta opción está dentro de <b>"Redes e internet"</b> o <b>"Conexiones"</b>. Si no la encuentras, pide ayuda a un familiar para ubicarla una sola vez.
+      </div>
+    </div>
+
+    <div class="numero">
+      <div class="circulo">3</div>
+      <div class="texto">
+        Dentro de esa opción, teclea <b>"Zona Wi-Fi portátil"</b> o <b>"Punto de acceso portátil"</b>.
+      </div>
+    </div>
+
+    <div class="numero">
+      <div class="circulo">4</div>
+      <div class="texto">
+        Activa el interruptor (la palanca) de <b>"Zona Wi-Fi portátil"</b>. La palanca debe quedar de color (encendida). El celular mostrará un aviso de que se está compartiendo internet.
+      </div>
+    </div>
+
+    <div class="numero">
+      <div class="circulo">5</div>
+      <div class="texto">
+        Espera un momento. Ahora el celular mostrará <b>dos datos importantes</b>:
+        <div class="recuadro-datos">
+          <p><b>Nombre de la red:</b> por ejemplo "Mi celular 1234"</p>
+          <p><b>Contraseña:</b> una clave de letras y números</p>
+        </div>
+        <br>
+        Anótalos en el papel con lápiz, tal cual aparecen (las mayúsculas y minúsculas importan).
+      </div>
+    </div>
+
+    <div class="aviso">
+      <b>No sigas adelante hasta tener el nombre y la contraseña anotados.</b>
+    </div>
+  </section>
+
+  <section class="carta" id="parte2">
+    <h2>Parte 2: Conectar el televisor Google TV</h2>
+
+    <div class="numero">
+      <div class="circulo">1</div>
+      <div class="texto">
+        Enciende el televisor con el control remoto y espera a que se cargue la pantalla de inicio.
+      </div>
+    </div>
+
+    <div class="numero">
+      <div class="circulo">2</div>
+      <div class="texto">
+        Presiona el botón <b>Inicio</b> del control (el que dibuja una casita) para ver el menú principal.
+      </div>
+    </div>
+
+    <div class="numero">
+      <div class="circulo">3</div>
+      <div class="texto">
+        Busca el icono de <b>Ajustes</b> o <b>Configuración</b> (el engranaje). Está arriba a la derecha de la pantalla. Entra con la flecha del control y presiona el botón central para aceptar.
+      </div>
+    </div>
+
+    <div class="numero">
+      <div class="circulo">4</div>
+      <div class="texto">
+        Con las flechas del control, busca la opción <b>"Red"</b> o <b>"Red e Internet"</b> y entra.
+      </div>
+    </div>
+
+    <div class="numero">
+      <div class="circulo">5</div>
+      <div class="texto">
+        Elige <b>"Wi-Fi"</b> y verifica que esté <b>activado</b> (encendido).
+      </div>
+    </div>
+
+    <div class="numero">
+      <div class="circulo">6</div>
+      <div class="texto">
+        Aparecerá la lista de redes disponibles. Busca el <b>nombre de red que anotaste del celular</b> y selecciónalo.
+      </div>
+    </div>
+
+    <div class="numero">
+      <div class="circulo">7</div>
+      <div class="texto">
+        Se abrirá una pantalla para escribir la <b>contraseña</b>. Escríbela tal cual la anotaste. Ten cuidado con las letras mayúsculas: en el teclado del televisor, presiona la flecha de subir (Shift) si la letra es mayúscula.
+      </div>
+    </div>
+
+    <div class="numero">
+      <div class="circulo">8</div>
+      <div class="texto">
+        Presiona <b>"Conectar"</b> y espera unos segundos (puede tardar hasta 1 minuto).
+      </div>
+    </div>
+
+    <div class="numero">
+      <div class="circulo">9</div>
+      <div class="texto">
+        Cuando el televisor diga <b>"Conectado"</b>, presiona el botón Inicio (la casita) y abre <b>YouTube</b> o <b>Netflix</b> para probar. Si se reproduce un video, todo quedó listo.
+      </div>
+    </div>
+  </section>
+
+  <section class="carta verde" id="parte3">
+    <h2>Parte 3: Consejos para que funcione bien</h2>
+
+    <div class="numero">
+      <div class="circulo">1</div>
+      <div class="texto">
+        <b>Mantén el celular cargando.</b> Compartir internet gasta la batería rápido. Conecta el celular al cargador cada vez que el televisor esté viendo videos.
+      </div>
+    </div>
+
+    <div class="numero">
+      <div class="circulo">2</div>
+      <div class="texto">
+        <b>Los videos gastan datos del plan.</b> Un video en YouTube o Netflix puede gastar varios gigas. Si tu plan tiene un límite, revisa cuántos datos te quedan (en Ajustes &gt; Datos móviles, o con el mensaje de la compañía).
+      </div>
+    </div>
+
+    <div class="numero">
+      <div class="circulo">3</div>
+      <div class="texto">
+        <b>Cuando termines de ver, apaga la Zona Wi-Fi del celular</b> (vuelve a tocar la palanca del paso 4 de la Parte 1). Así ahorras batería y datos.
+      </div>
+    </div>
+
+    <div class="numero">
+      <div class="circulo">4</div>
+      <div class="texto">
+        <b>El celular debe estar encendido y cerca del televisor</b> (en la misma habitación). Si el celular se apaga o se queda sin batería, el televisor pierde internet.
+      </div>
+    </div>
+
+    <div class="numero">
+      <div class="circulo">5</div>
+      <div class="texto">
+        <b>Revisa que el celular tenga señal</b> (las barritas de arriba de la pantalla). Si no hay señal, el "punto de internet" no funciona aunque esté encendido.
+      </div>
+    </div>
+  </section>
+
+  <section class="carta" id="parte4">
+    <h2>Parte 4: Si algo no funciona</h2>
+
+    <div class="problema">
+      <div class="titulo-problema"><strong>Problema 1</strong> El televisor no encuentra la red del celular</div>
+      <div class="solucion"><strong>Solución:</strong> acercar el celular al televisor. En el celular, apagar y volver a encender la palanca de la Zona Wi-Fi. Esperar 1 minuto y buscar la red nuevamente.</div>
+    </div>
+
+    <div class="problema">
+      <div class="titulo-problema"><strong>Problema 2</strong> Dice "contraseña incorrecta"</div>
+      <div class="solucion"><strong>Solución:</strong> revisar que las letras mayúsculas se escriban igual que en el papel. Para evitar este problema, se puede cambiar la contraseña en el celular por una de <b>solo números</b>: en los ajustes de la Zona Wi-Fi, entrar a "Configurar zona" o "Configurar punto de acceso" y cambiar la contraseña (por ejemplo, 12345678).</div>
+    </div>
+
+    <div class="problema">
+      <div class="titulo-problema"><strong>Problema 3</strong> El televisor se conecta pero no abren las aplicaciones</div>
+      <div class="solucion"><strong>Solución:</strong> revisar que el celular tenga señal y que los <b>datos móviles</b> estén activados (en el celular, la palanca de "Datos móviles"). Apagar y prender los datos móviles para que se actualicen.</div>
+    </div>
+
+    <div class="problema">
+      <div class="titulo-problema"><strong>Problema 4</strong> El televisor se desconecta solo</div>
+      <div class="solucion"><strong>Solución:</strong> es probable que el celular se haya dormido. En los ajustes de la Zona Wi-Fi, buscar la opción "Apagado automático del punto de acceso" y elegir <b>"Nunca"</b> o <b>"Siempre activo"</b>. También mantener el celular cargando.</div>
+    </div>
+
+    <div class="problema">
+      <div class="titulo-problema"><strong>Problema 5</strong> La conexión funciona pero el video se ve lento o se traba</div>
+      <div class="solucion"><strong>Solución:</strong> la velocidad depende de la señal del celular. Acercar el celular a una ventana o a un lugar con mejor señal, y probar de nuevo. También se puede bajar la calidad del video en YouTube (icono de engranaje dentro del video).</div>
+    </div>
+  </section>
+
+  <section class="carta verde">
+    <h2>Espacio para tus fotos de ayuda</h2>
+    <p>Para que la guía sea aún más fácil, se pueden agregar aquí fotos reales, por ejemplo:</p>
+    <ul>
+      <li>Foto de la pantalla del celular donde aparece la Zona Wi-Fi encendida.</li>
+      <li>Foto de la pantalla del televisor donde está la lista de redes Wi-Fi.</li>
+      <li>Foto de los menús de tu televisor particular.</li>
+    </ul>
+    <div class="espacio-fotos">
+      Espacio para pegar fotos (imprime esta página y pega tus fotos aquí, o pídele a un familiar que las agregue a este documento).
+    </div>
+  </section>
+
+  <section class="carta" id="resumen">
+    <h2>Resumen rápido en 4 frases</h2>
+    <p>1. Enciende el punto de internet en el celular (Parte 1).</p>
+    <p>2. Anota el nombre de la red y la contraseña.</p>
+    <p>3. Conecta el televisor a esa red (Parte 2).</p>
+    <p>4. Mantén el celular cargando y a la mano. Cuando termines, apaga el punto de internet.</p>
+  </section>
+
+</main>
+
+<footer>
+  Guía creada para uso personal de la familia. Si algo cambia en tu celular o televisor, esta página se puede actualizar para ayudarte.
+</footer>
+
+</body>
+</html>
