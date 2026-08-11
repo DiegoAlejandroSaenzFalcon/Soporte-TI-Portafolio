@@ -33,8 +33,10 @@
 5. Entra en **"Wi-Fi"** y verifica que esté **activado** (encendido).
 6. En la lista de redes, busca el **nombre que anotaste del celular** y selecciónalo.
 7. Teclea la **contraseña del papel** y presiona **"Conectar"**.
-8. Espera hasta 1 minuto: el televisor debe decir **"Conectado"**.
-9. Presiona el botón **Inicio** (la casita) y abre **YouTube** o **Netflix**. Si se reproduce un video, ¡todo quedó listo!
+8. Espera hasta 1 minuto: el televisor debe decir **"Conectado"** (o "Conectado a internet").
+9. Presiona el botón **Inicio** (la casita) y abre **YouTube**, **Netflix** o **Prime Video**. Si se reproduce un video, ¡todo quedó listo!
+
+> **Sé paciente con la velocidad:** al usar la red celular (4G), las aplicaciones tardan un poco más en abrir que con el Wi-Fi de la casa. No es que el televisor esté fallando: es normal. Con ~20 megas de bajada (velocidad que se ve en los ajustes del televisor) el video se ve perfecto en 1080p.
 
 > **Regla de oro:** si el televisor dice "contraseña incorrecta", revisa las **mayúsculas** contra el papel. Si falla otra vez, ponle al celular una contraseña de **solo números** (se explica en el módulo 1, paso 3).
 

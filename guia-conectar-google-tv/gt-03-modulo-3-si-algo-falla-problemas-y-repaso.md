@@ -21,6 +21,7 @@
 | El celular se apagó o se durmió | Verifica que la Zona Wi-Fi siga **encendida** (módulo 1) |
 | El celular está lejos | Acércalo a menos de 2 metros del televisor |
 | La Zona Wi-Fi se trabó | En el celular: apágala y vuelve a encenderla. Espera 1 minuto y busca de nuevo |
+| Sigue sin aparecer | **Reinicia ambos equipos:** apaga y enciende la Zona Wi-Fi del celular, y apaga y vuelve a encender el televisor (desenchúfalo 30 segundos si hace falta) |
 
 ### Problema 2: Dice "contraseña incorrecta"
 
@@ -50,6 +51,7 @@
 2. **Celular cerca del televisor** (misma habitación).
 3. **Barritas con señal** en el celular: sin señal, no hay internet.
 4. **Apagar la Zona Wi-Fi al terminar**: ahorra batería y datos del plan.
+5. **Revisa tu plan de datos**: si **no es ilimitado**, ver videos puede agotar los datos del mes (en el celular: Configuración → Datos móviles, ahí se ve cuánto queda).
 
 ## 3. Repaso final en 4 frases (decirlas en voz alta)
 

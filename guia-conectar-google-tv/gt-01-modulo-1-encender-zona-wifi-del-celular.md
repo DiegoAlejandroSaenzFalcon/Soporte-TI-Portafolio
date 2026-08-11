@@ -7,6 +7,7 @@
 ## Objetivos de este módulo
 
 - [ ] Ver el dibujo y entender la idea de una vez
+- [ ] Saber cuántos datos del plan se necesitan (ilimitados recomendados)
 - [ ] Encender la Zona Wi-Fi del celular
 - [ ] Anotar NOMBRE y CONTRASEÑA en el papel
 
@@ -28,13 +29,15 @@
 
 ![Encender la Zona Wi-Fi](./gt-diagrama-encender-zona-wifi.svg)
 
+> **Antes de empezar, la advertencia importante:** ver videos en el televisor **consume los datos del plan del celular**. Si el plan **no es ilimitado**, se puede terminar (revienta el plan). Funciona en todos los teléfonos (Android, iPhone y otros): el nombre de la red será **el nombre de tu teléfono**.
+
 1. **Desliza el dedo** desde la parte de arriba de la pantalla del celular (hacia abajo). Se abre el panel de botones rápidos.
-2. Busca el icono de **"Zona Wi-Fi"** o **"Hotspot"** (parece un foco o unas ondas de señal Wi-Fi). Si no lo ves, desliza el panel hacia un lado o presiona **Editar** para encontrarlo.
+2. Busca el icono de **"Zona Wi-Fi"** o **"Hotspot"** (parece un foco o unas ondas de señal Wi-Fi). Si no lo ves, entra por **Configuración** (el engranaje) → **Compartir internet** (o "Zona Wi-Fi portátil", "Punto de acceso").
 3. **Tócalo una vez** para encenderlo: debe quedar de color (encendido). *(Si dudas, tócalo y mantén presionado: se abre la pantalla completa de Zona Wi-Fi portátil.)*
 4. El celular mostrará **dos datos importantes**. Anótalos **tal cual** en el papel:
    - **Nombre de la red** (ejemplo: "Mi Celular 1234")
    - **Contraseña** (ejemplo: "abc987")
-5. Conecta el celular **al cargador** mientras vayas a ver televisión.
+5. Conecta el celular **al cargador** mientras vayas a ver televisión: compartir internet apaga la batería rápido y si el celular se apaga, el televisor pierde internet.
 
 > **Regla de oro:** no sigas al módulo 2 **sin tener en el papel** el nombre y la contraseña. Las mayúsculas y minúsculas importan.
 
