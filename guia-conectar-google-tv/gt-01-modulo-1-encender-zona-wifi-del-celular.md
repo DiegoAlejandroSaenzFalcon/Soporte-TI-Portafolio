@@ -40,7 +40,7 @@
 
 ## 3. Si la contraseña es difícil de teclear en el televisor
 
-En la pantalla de Zona Wi-Fi del celular, entra a **Configurar Zona Wi-Fi** (o "Configurar punto de acceso") y **cambia la contraseña por solo números** (ejemplo: 12345678). Así el televisor no se equivoca nunca, y papá solo recuerda 8 números.
+En la pantalla de Zona Wi-Fi del celular, entra a **Configurar Zona Wi-Fi** (o "Configurar punto de acceso") y **cambia la contraseña por solo números** (ejemplo: 12345678). Así el televisor no se equivoca nunca, y solo hay que recordar 8 números.
 
 ## 4. Ejercicio de 1 minuto
 

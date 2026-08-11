@@ -64,7 +64,7 @@ Las fotos reales de TU celular y TU televisor son la mejor ayuda contra los olvi
 
 1. Toma una **captura de pantalla** del celular con la Zona Wi-Fi encendida.
 2. Toma una foto de la **pantalla del televisor** con la lista de redes.
-3. Envía ambas fotos a un familiar: él las pega en esta guía (debajo de esta línea) y papá tendrá su guía a medida.
+3. Envía ambas fotos a un familiar: él las pega en esta guía (debajo de esta línea) y la persona tendrá su guía a medida.
 
 ## 5. Checklist de dominio (sin mirar el módulo)
 

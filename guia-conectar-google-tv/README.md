@@ -1,14 +1,14 @@
 # Guía para Conectar el Televisor Google TV a Internet con el Celular
 
-**La guía de bolsillo para papá: encender la Zona Wi-Fi del celular, anotar dos datos, conectar el televisor — y no volver a olvidar cómo se hace.**
+**La guía de bolsillo para adultos mayores: encender la Zona Wi-Fi del celular, anotar dos datos, conectar el televisor — y no volver a olvidar cómo se hace.**
 
-> Guía práctica en **3 módulos cortos**: cada uno tiene un dibujo, pasos numerados con letra clara y una frase para decir en voz alta. Pensada para repetirse: papá puede repasarla en el momento, imprimirla o pedir que se la lean por teléfono. Incluye los **manuales oficiales de Google** como respaldo y una versión imprimible con letra grande.
+> Guía práctica en **3 módulos cortos**: cada uno tiene un dibujo, pasos numerados con letra clara y una frase para decir en voz alta. Pensada para repetirse: se puede repasar en el momento, imprimirla o pedir que la lean por teléfono. Incluye los **manuales oficiales de Google** como respaldo.
 
 ---
 
 ## Contenido (3 módulos, ~5 minutos cada uno)
 
-| Módulo | Qué hace papá | Cuánto dura |
+| Módulo | Qué hará la persona | Cuánto dura |
 |--------|---------------|-------------|
 | [01 · Encender la Zona Wi-Fi del celular](./gt-01-modulo-1-encender-zona-wifi-del-celular.md) | Un dibujo + 5 pasos en el celular para convertirlo en "modem" | 3 min |
 | [02 · Conectar el televisor Google TV](./gt-02-modulo-2-conectar-el-televisor-google-tv.md) | Un dibujo + 6 pasos con el control remoto | 3 min |
@@ -22,7 +22,7 @@
 | [Encender la Zona Wi-Fi](./gt-diagrama-encender-zona-wifi.svg) | La pantalla del celular, paso a paso |
 | [Conectar el televisor](./gt-diagrama-conectar-el-televisor.svg) | La ruta del control remoto por los menús |
 
-## Manuales oficiales de Google (si papá se atora o quiere aprender más)
+## Manuales oficiales de Google (respaldo para cualquier duda)
 
 | Manual oficial | Qué explica |
 |----------------|-------------|
@@ -30,7 +30,7 @@
 | [Configurar un dispositivo Google TV](https://support.google.com/googletv/answer/10050221?hl=es-419) | Primer uso, control remoto y conexión a Wi-Fi |
 | [Solucionar problemas del Google TV](https://support.google.com/googletv/answer/10070482?hl=es-419) | Wi-Fi, aplicaciones lentas, desconexiones |
 
-## Cómo usar esta guía (método para papá)
+## Cómo usar esta guía (método de estudio)
 
 1. **Lee solo el módulo que necesitas** — no hay que leerse todo.
 2. **Mira el dibujo primero**, luego los pasos.

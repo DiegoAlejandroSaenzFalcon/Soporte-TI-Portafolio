@@ -1,12 +1,12 @@
 # Visión general — Guía para conectar el Google TV
 
 > **Esto es**: la receta para ver YouTube y Netflix en el televisor usando los datos del celular.
-> **Nivel**: cero absoluto → independiente (papá lo hace solo, sin llamar a nadie).
+> **Nivel**: cero absoluto → independiente (hacerlo solo, sin pedir ayuda a nadie).
 > **Para quién es**: una persona mayor que olvida pasos con frecuencia. Por eso es corta, con dibujos y repetible.
 
 ## ¿Por qué está hecha así?
 
-| Problema de papá | Solución de esta guía |
+| Problema de la persona mayor | Solución de esta guía |
 |-------------------|------------------------|
 | Olvida los pasos | 3 módulos de 5 minutos, cada uno con un dibujo |
 | Se confunde con tecnicismos | Lenguaje de cocina: "el celular se vuelve el modem" |
@@ -23,7 +23,7 @@
 ```
 M1 Celular: encender la Zona Wi-Fi + anotar NOMBRE y CONTRASEÑA
    |
-   v  (el papá los tiene en el papel)
+   v  (el nombre y la contraseña quedan anotados en el papel)
 M2 Televisor: Ajustes > Red e Internet > Wi-Fi > tu red > CONECTAR
    |
    v
