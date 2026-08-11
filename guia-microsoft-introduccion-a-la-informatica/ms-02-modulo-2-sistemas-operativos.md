@@ -19,7 +19,7 @@
 |----------|---------------|
 | [El arranque en 4 pasos](./ms-02-modulo-2-sistemas-operativos-diagrama-arranque-4-pasos.svg) | UEFI → bootloader → kernel → escritorio, y el rol de los drivers |
 
----
+![El arranque en 4 pasos](./ms-02-modulo-2-sistemas-operativos-diagrama-arranque-4-pasos.svg)
 
 ## 1. El SO como director de orquesta
 

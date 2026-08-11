@@ -19,7 +19,7 @@
 |----------|---------------|
 | [El ciclo de gestión de parches](./ms-04-modulo-4-seguridad-y-continuidad-diagrama-ciclo-parches.svg) | Los 5 pasos del mantenimiento profesional: inventario → priorizar → probar → aplicar → verificar |
 
----
+![El ciclo de gestión de parches](./ms-04-modulo-4-seguridad-y-continuidad-diagrama-ciclo-parches.svg)
 
 ## 1. El panorama de amenazas (de dónde viene el peligro)
 

@@ -19,7 +19,7 @@
 |----------|---------------|
 | [La computadora es una cocina](./ms-01-modulo-1-fundamentos-del-hardware-diagrama-cocina.svg) | El rol de cada componente y el flujo completo de un clic |
 
----
+![La computadora es una cocina](./ms-01-modulo-1-fundamentos-del-hardware-diagrama-cocina.svg)
 
 ## 1. La computadora como una cocina (analogía maestra)
 
