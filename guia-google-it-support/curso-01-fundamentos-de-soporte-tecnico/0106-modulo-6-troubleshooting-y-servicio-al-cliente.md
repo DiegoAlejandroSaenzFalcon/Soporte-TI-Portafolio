@@ -19,7 +19,7 @@
 |----------|---------------|
 | [Método científico en troubleshooting](../metodo-cientifico-troubleshooting.svg) | Las 5 fases del diagnóstico profesional (observar → hipótesis → experimento → resultado → concluir) |
 
----
+![Método científico en troubleshooting](../metodo-cientifico-troubleshooting.svg)
 
 ## 1. La metodología (7 pasos del técnico profesional)
 
