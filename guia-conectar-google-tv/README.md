@@ -38,7 +38,7 @@
 4. Si olvidas un paso, **vuelve a abrir el mismo módulo** — para eso está.
 5. Las **fotos reales** de tu celular y tu televisor pueden pegarse al final (el módulo 3 explica cómo) — así la guía queda a tu medida.
 
-**Versión enriquecida con letra grande:** [index.html](./index.html) — al abrirse en GitHub muestra el código, pero **publicada con GitHub Pages se ve como página web, sin código**: https://diegoalexandrosaenzfalcon.github.io/Soporte-TI-Portafolio/guia-conectar-google-tv/ (activa Pages una sola vez en *Settings → Pages → Deploy from a branch → main → root → Save*). Mientras tanto, puedes verla renderizada en [htmlpreview.github.io](https://htmlpreview.github.io/?https://github.com/DiegoAlejandroSaenzFalcon/Soporte-TI-Portafolio/blob/main/guia-conectar-google-tv/index.html). Para imprimir: pulsa Imprimir en el navegador.
+Todo se ve renderizado en GitHub: abre los módulos directamente, sin descargas ni pasos extra.
 
 ---
 

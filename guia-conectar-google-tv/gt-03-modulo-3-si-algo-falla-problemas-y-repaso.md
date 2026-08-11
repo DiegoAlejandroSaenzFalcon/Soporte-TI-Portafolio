@@ -76,6 +76,4 @@ Las fotos reales de TU celular y TU televisor son la mejor ayuda contra los olvi
 
 ---
 
-**Versión enriquecida con letra grande (página web, sin código):** [index.html](./index.html) — abre en el navegador el archivo local para imprimir, o consulta la versión publicada con GitHub Pages (ver README de la guía).
-
 **Volver al inicio**: [README de la guía](./README.md) · [Visión general](./00-vision-general.md)
